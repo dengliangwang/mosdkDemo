@@ -1,0 +1,6 @@
+framework module MOSDK {
+  umbrella header "MOSDK.h"
+
+  export *
+  module * { export * }
+}

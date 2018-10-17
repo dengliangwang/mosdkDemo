@@ -1,0 +1,102 @@
+/* 
+  Localizable.strings
+  MOSDK
+
+  Created by Jack on 16/3/29.
+  Copyright © 2016年 Morlia. All rights reserved.
+*/
+
+
+/* Login */
+"t_account_login"   = "Account Login";
+"t_account_logout"  = "Logout";
+"t_btn_login"       = "Login";
+"t_btn_guest"       = "Guest";
+"t_btn_join"        = "Join";
+"t_btn_fb"          = "Facebook";
+
+"tip_in_account"    = "Input your account";
+"tip_in_pwd"        = "Input your login password";
+
+
+/* Join */
+"t_account_join"        = "Register Account";
+"t_btn_join_c"          = "Join";
+"t_btn_reset"           = "Reset";
+"tip_in_account_new"    = "Account name: 6~16 a~z/A~Z/0~9";
+"tip_in_pwd1"           = "Input your login password";
+"tip_in_pwd2"           = "Input login password again";
+"tip_in_email"          = "Input your E-mail address";
+
+
+
+
+/* Toast */
+"toast_welcome_back" = "Welcome back, %@!";
+
+
+
+/* Result */
+"r_title_info"      = "Info";
+"r_title_warning"   = "Warning";
+"r_title_error"     = "Error";
+
+"r_network_error"   = "Network error";
+"r_data_error"      = "Data error";
+"r_internal_error"  = "Internal error";
+
+"r_acc_empty"           = "Please input your account name";
+"r_pwd_empty"           = "Please input your password";
+"r_invalid_acc"         = "Invalid account name";
+"r_acc_or_pwd_error"    = "Account name or password error";
+"r_acc_new_empty"       = "Please input new account name";
+"r_pwd1_invalid"        = "Your password format error";
+"r_pwd2_empty"          = "Please input your password again";
+"r_pwd2_n_match"        = "Two passwords not match";
+"r_email_empty"         = "Please input your E-mail address";
+"r_email_invalid"       = "E-mail address format error";
+"r_acc_reg_success"     = "Account register success";
+
+/* 1.0.10005 */
+"t_btn_ok"              = "OK";
+"t_btn_cancel"          = "Cancel";
+"t_btn_complete"        = "Complete";
+"t_btn_yes"             = "Yes";
+"t_btn_no"              = "No";
+"t_btn_google"          = "Google Play";
+
+"t_account_sel"         = "Select Account";
+"t_account_mo"          = "Account";
+"t_account_ta"          = "Third Party Account";
+"t_account_guest"       = "Guest Account";
+"t_account_bind"        = "Bind Account";
+
+"t_name_mo"             = "%@ [%@]";
+"t_name_guest"          = "Guest [%@]";
+"t_name_gamecenter"     = "GameCenter [%@]";
+"t_name_facebook"       = "Facebook [%@]";
+"t_name_google"         = "Google [%@]";
+
+"t_btn_enter"           = "Enter";
+"t_btn_enter_s"         = "Enter (%@)";
+"t_btn_enter_p"         = "Pause";
+"t_btn_help"            = "Help";
+"t_btn_logout"          = "Logout";
+"t_btn_bind"            = "Bind";
+"t_btn_bind_facebook"   = "Bind Facebook Account";
+"t_btn_bind_google"     = "Bind Google Account";
+
+"r_args_error"          = "Arguments error";
+"r_unknown_error"       = "Unknown error";
+"r_accounts_num_limit"  = "Number of accounts more than limit";
+"r_account_repeat"      = "Account repeat login or token expired";
+
+"tip_guest_risks"       = "Your current login is a guest account, maybe have some risks, that missing some data. We suggest you binding account as quickly as possible.";
+
+"r_bind_mo_success"         = "Bind account success";
+"r_bind_mo_failed"          = "Bind account failed";
+"r_bind_facebook_success"   = "Bind facebook account success";
+"r_bind_facebook_failed"    = "Bind facebook account failed";
+"r_bind_google_success"     = "Bind google account success";
+"r_bind_google_failed"      = "Bind google account failed";
+"facebook_like_reward_btn_title" = "Like";

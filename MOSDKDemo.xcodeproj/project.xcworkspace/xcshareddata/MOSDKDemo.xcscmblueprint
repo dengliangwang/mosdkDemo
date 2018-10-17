@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "15abb28e-4e8c-8943-aa58-e59eb87d7c44",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "15abb28e-4e8c-8943-aa58-e59eb87d7c44" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "15abb28e-4e8c-8943-aa58-e59eb87d7c44" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F0519A04-28B2-4F3C-8181-735C2B013954",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "15abb28e-4e8c-8943-aa58-e59eb87d7c44" : "mosdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MOSDKDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "src\/ios\/demo\/MOSDKDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/hy.sh.i64.biz:4430\/svn\/mosdk",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15abb28e-4e8c-8943-aa58-e59eb87d7c44"
+    }
+  ]
+}

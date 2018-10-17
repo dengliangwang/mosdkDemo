@@ -1,0 +1,14 @@
+framework module Partytrack {
+  umbrella header "Partytrack.h"
+
+  export *
+  module * { export * }
+
+  link framework "CoreData"
+  link framework "UIKit"
+  link framework "Foundation"
+  link framework "Security"
+  link framework "AdSupport"
+  link framework "iAd"
+  link framework "SafariServices"
+}
