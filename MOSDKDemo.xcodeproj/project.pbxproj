@@ -36,6 +36,9 @@
 		1D61959820F8420D00A63ED2 /* MOSDK.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 1D61959720F8420D00A63ED2 /* MOSDK.storyboardc */; };
 		1D61959C20F87CC000A63ED2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D61959B20F87CC000A63ED2 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1D7246DE20EA0626007F0FFE /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7246DD20EA0626007F0FFE /* AppsFlyerLib.framework */; };
+		1DA269092178584700373A0C /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DA269062178584600373A0C /* GoogleSignIn.bundle */; };
+		1DA2690A2178584700373A0C /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA269072178584600373A0C /* GoogleSignIn.framework */; };
+		1DA2690B2178584700373A0C /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA269082178584600373A0C /* GoogleSignInDependencies.framework */; };
 		1DF179191FE8BDDA0037BB09 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF179181FE8BDDA0037BB09 /* Bugly.framework */; };
 		8804C7411C9BD69A0091400C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804C7401C9BD69A0091400C /* main.m */; };
 		8804C7441C9BD69A0091400C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804C7431C9BD69A0091400C /* AppDelegate.m */; };
@@ -161,6 +164,9 @@
 		1D61959720F8420D00A63ED2 /* MOSDK.storyboardc */ = {isa = PBXFileReference; lastKnownFileType = wrapper.storyboardc; name = MOSDK.storyboardc; path = Frameworks/MOSDK.framework/MOSDK.storyboardc; sourceTree = "<group>"; };
 		1D61959B20F87CC000A63ED2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		1D7246DD20EA0626007F0FFE /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppsFlyerLib.framework; path = Frameworks/AppsFlyerLib.framework; sourceTree = "<group>"; };
+		1DA269062178584600373A0C /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Frameworks/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		1DA269072178584600373A0C /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		1DA269082178584600373A0C /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = Frameworks/GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 		1DF179181FE8BDDA0037BB09 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bugly.framework; path = Frameworks/Bugly.framework; sourceTree = "<group>"; };
 		8804C73C1C9BD69A0091400C /* MOSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8804C7401C9BD69A0091400C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -197,10 +203,12 @@
 				1D0CA5431FB3026B00383825 /* libicucore.tbd in Frameworks */,
 				882273BF1CD88DC700301839 /* libz.tbd in Frameworks */,
 				1D7246DE20EA0626007F0FFE /* AppsFlyerLib.framework in Frameworks */,
+				1DA2690A2178584700373A0C /* GoogleSignIn.framework in Frameworks */,
 				1D0CA5411FB3025300383825 /* AssetsLibrary.framework in Frameworks */,
 				0415B1B91EA0B5C6007C6863 /* CoreData.framework in Frameworks */,
 				1D0CA53F1FB3023F00383825 /* MobileCoreServices.framework in Frameworks */,
 				1D0CA53D1FB3023400383825 /* AudioToolbox.framework in Frameworks */,
+				1DA2690B2178584700373A0C /* GoogleSignInDependencies.framework in Frameworks */,
 				1D0CA53B1FB3022800383825 /* AVFoundation.framework in Frameworks */,
 				1D1A7A281FB5CA22002CB806 /* libHelpshift.a in Frameworks */,
 				1D0CA5391FB3021B00383825 /* WebKit.framework in Frameworks */,
@@ -307,6 +315,9 @@
 		880893DF1CAE5A0C0006E600 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1DA269062178584600373A0C /* GoogleSignIn.bundle */,
+				1DA269072178584600373A0C /* GoogleSignIn.framework */,
+				1DA269082178584600373A0C /* GoogleSignInDependencies.framework */,
 				1D2270B720FD8BA400C4859E /* MOSDK.framework */,
 				1D61959B20F87CC000A63ED2 /* iAd.framework */,
 				1D17261920F5C0CE0048F728 /* MOSDK.bundle */,
@@ -369,12 +380,12 @@
 		8804C7341C9BD69A0091400C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Morlia;
 				TargetAttributes = {
 					8804C73B1C9BD69A0091400C = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = SPJ968QS3Q;
+						DevelopmentTeam = 3TGAAVKAN5;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -468,6 +479,7 @@
 				1D1A7A241FB5CA22002CB806 /* HelpshiftConfig.plist in Resources */,
 				1D1A7A231FB5CA22002CB806 /* HsLocalization.bundle in Resources */,
 				1D17261B20F5C0CE0048F728 /* MOSDK.bundle in Resources */,
+				1DA269092178584700373A0C /* GoogleSignIn.bundle in Resources */,
 				1D1A7A291FB5CA22002CB806 /* NOTICE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,17 +600,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -632,17 +655,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -675,7 +709,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = SPJ968QS3Q;
+				DEVELOPMENT_TEAM = 3TGAAVKAN5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -693,10 +727,10 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makery.xjlnx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.zsjl6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e974c59f-85d5-437e-ac18-b04b0da97d10";
-				PROVISIONING_PROFILE_SPECIFIER = xjlnx2_dev;
+				PROVISIONING_PROFILE_SPECIFIER = zsjl6_dev;
 				VALID_ARCHS = "arm64 armv7s armv7 i386";
 			};
 			name = Debug;
@@ -710,7 +744,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = SPJ968QS3Q;
+				DEVELOPMENT_TEAM = 3TGAAVKAN5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -727,10 +761,10 @@
 					"$(PROJECT_DIR)/Frameworks/helpshift-sdk-ios-v6.3.0",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makery.xjlnx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.zsjl6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "fbcab873-b03c-41e1-aeb1-61d2b6b09d7b";
-				PROVISIONING_PROFILE_SPECIFIER = xjlnx2_adhoc;
+				PROVISIONING_PROFILE_SPECIFIER = zsjl6_adhoc;
 				VALID_ARCHS = "arm64 armv7s armv7 i386";
 			};
 			name = Release;
