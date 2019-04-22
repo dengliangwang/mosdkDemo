@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -129,11 +128,22 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aE-rV-dAr">
+                                <rect key="frame" x="16" y="360" width="100" height="30"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="用户中心">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="showUserCenter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xxq-7e-LU3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="N1V-kE-efi" firstAttribute="top" secondItem="TpA-zd-3jP" secondAttribute="bottom" constant="10" id="18X-Pb-Qv8"/>
                             <constraint firstItem="Rhg-uN-hIV" firstAttribute="width" secondItem="N1V-kE-efi" secondAttribute="width" id="3wj-aN-hRD"/>
+                            <constraint firstItem="2aE-rV-dAr" firstAttribute="height" secondItem="khM-UZ-nxr" secondAttribute="height" id="5io-ok-CvY"/>
                             <constraint firstItem="lpk-60-CnV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="7aX-PT-wKm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="COn-5S-pmM" secondAttribute="trailing" constant="20" id="8DD-Bb-tq0"/>
                             <constraint firstItem="bU6-eF-1CM" firstAttribute="top" secondItem="lpk-60-CnV" secondAttribute="bottom" constant="10" id="9Aw-d9-q4w"/>
@@ -142,9 +152,12 @@
                             <constraint firstItem="lpk-60-CnV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="HAG-tv-5Lk"/>
                             <constraint firstItem="N1V-kE-efi" firstAttribute="leading" secondItem="bU6-eF-1CM" secondAttribute="leading" id="KQ1-qM-HqS"/>
                             <constraint firstItem="az6-ky-54g" firstAttribute="top" secondItem="y7j-S4-63g" secondAttribute="bottom" constant="10" id="Lx8-L7-4rM"/>
+                            <constraint firstItem="2aE-rV-dAr" firstAttribute="width" secondItem="khM-UZ-nxr" secondAttribute="width" id="NM4-1N-150"/>
                             <constraint firstItem="TpA-zd-3jP" firstAttribute="leading" secondItem="bU6-eF-1CM" secondAttribute="leading" id="O0R-LF-Ycr"/>
                             <constraint firstItem="COn-5S-pmM" firstAttribute="top" secondItem="lpk-60-CnV" secondAttribute="bottom" constant="10" id="V8L-hI-evv"/>
+                            <constraint firstItem="2aE-rV-dAr" firstAttribute="centerX" secondItem="khM-UZ-nxr" secondAttribute="centerX" id="Vhm-pX-55e"/>
                             <constraint firstItem="az6-ky-54g" firstAttribute="leading" secondItem="bU6-eF-1CM" secondAttribute="leading" id="WZs-yX-6r2"/>
+                            <constraint firstItem="2aE-rV-dAr" firstAttribute="top" secondItem="khM-UZ-nxr" secondAttribute="bottom" constant="10" id="Y5G-RT-DUP"/>
                             <constraint firstItem="y7j-S4-63g" firstAttribute="top" secondItem="bU6-eF-1CM" secondAttribute="bottom" constant="10" id="adp-Q3-uzN"/>
                             <constraint firstItem="y7j-S4-63g" firstAttribute="leading" secondItem="bU6-eF-1CM" secondAttribute="leading" id="ayy-iy-Uzk"/>
                             <constraint firstItem="bU6-eF-1CM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="db9-nC-Fef"/>
@@ -163,6 +176,7 @@
                         <outlet property="mLogout" destination="y7j-S4-63g" id="ZaM-PY-25a"/>
                         <outlet property="mPurchase" destination="TpA-zd-3jP" id="wXJ-Hl-dIh"/>
                         <outlet property="mRequest" destination="az6-ky-54g" id="o5F-an-W9E"/>
+                        <outlet property="mUserCenterBtn" destination="2aE-rV-dAr" id="yLB-os-5pZ"/>
                         <outlet property="mUsername" destination="lpk-60-CnV" id="En1-dm-RK0"/>
                     </connections>
                 </viewController>

@@ -19,6 +19,8 @@
 @property (weak, nonatomic) IBOutlet UIButton*  mPurchase;
 @property (weak, nonatomic) IBOutlet UIButton*  mFacebook;
 @property (weak, nonatomic) IBOutlet UILabel*   mUsername;
+@property (weak, nonatomic) IBOutlet UIButton *mUserCenterBtn;
+- (IBAction)showUserCenter:(UIButton *)sender;
 @property (strong, nonatomic) UIColor*          mColor1;
 @property (strong, nonatomic) UIColor*          mColor2;
 
@@ -212,6 +214,8 @@
     [self.mRequest setBackgroundColor: aCr1];
     [self.mFacebook setEnabled : YES];
     [self.mFacebook setBackgroundColor: aCr1];
+    [self.mUserCenterBtn setEnabled:YES];
+    [self.mUserCenterBtn setBackgroundColor:aCr1];
     
     //MOUser* aUser = [[MO instance] getUser];
     [self.mUsername setText: [NSString stringWithFormat: @"%@[%@]", [aUser getName], [aUser getID]]];
@@ -255,6 +259,8 @@
     [self.mPurchase setBackgroundColor: aCr2];
     [self.mFacebook setEnabled : NO];
     [self.mFacebook setBackgroundColor: aCr2];
+    [self.mUserCenterBtn setEnabled:NO];
+    [self.mUserCenterBtn setBackgroundColor:aCr2];
     
     self.mProducts = nil;
     
@@ -331,4 +337,9 @@
 }
 
 
+- (IBAction)showUserCenter:(UIButton *)sender {
+    
+    MO *platform = [MO instance];
+    [platform showAccountManagerCenter:self];
+}
 @end  // ViewController
