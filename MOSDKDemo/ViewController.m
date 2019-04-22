@@ -11,7 +11,7 @@
 #import "AppDelegate.h"
 
 
-@interface ViewController ()
+@interface ViewController ()<MOInitDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton*  mLogin;
 @property (weak, nonatomic) IBOutlet UIButton*  mLogout;
@@ -53,6 +53,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    /**
+     * 魔亚平台接入
+     *
+     * 第一步：初始化；
+     */
+    [MO init : self];
+}
 - (IBAction) on : (id)aSender
 {
     if (aSender == self.mLogin)
@@ -302,4 +312,23 @@
 
     NSLog(@"MOSDK Demo: buyProductFailed %d:%@", (int)aError.mCode, aError.mMessage);
 }
+
+/**
+ * 魔亚平台初始化成功
+ */
+- (void) initSuccess : (MO*)mo
+{
+    NSLog(@"Demo init success.");
+    [mo automaticLoginWithViewController:self];
+}
+
+/**
+ * 魔亚平台初始化失败
+ */
+- (void) initFailure : (MOError*)error
+{
+    NSLog(@"Demo error: %@", error);
+}
+
+
 @end  // ViewController

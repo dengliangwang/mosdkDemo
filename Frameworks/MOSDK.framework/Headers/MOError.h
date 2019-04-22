@@ -42,7 +42,7 @@
  */
 #define MOERROR_SERVER_RET_ERROR    500200
 
-
+extern NSInteger const mosdk_error_code_facebook_login_user_cancle;
 @interface MOError
     : NSObject
 
@@ -65,6 +65,8 @@
  * @return 完成初始化的MDKError实例对象
  */
 - (id) initWithErrorCode : (NSInteger)aCode message : (NSString*)aMessage;
+
+- (id) initWithErrorCode : (NSInteger)aCode;
 
 /**
  * 错误码是40200,错误信息是:无法连接到服务器.

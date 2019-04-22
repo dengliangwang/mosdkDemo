@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "JYCWindow.h"
 
 
 typedef enum
@@ -17,6 +18,8 @@ typedef enum{
 } DLMorliaActivityType;
 
 
+
+
 @class MOError;
 @class MOUser;
 @class MOGameUser;
@@ -26,6 +29,7 @@ typedef enum{
 @protocol MOActivityDelegate;
 @protocol MOGameControlDelegate;
 @class MOProduct;
+@protocol MOAccountManagerDelegate;
 
 /**
  * 魔亚主要功能接口，包括：应用注册、用户登录、在线定单等。
@@ -33,7 +37,7 @@ typedef enum{
  * @brief 魔亚接口
  */
 @interface MO
-    : NSObject
+    : NSObject <MOFloatWindowDelegate>
 
 /**
  * @brief 获取 MO 单例对象。
@@ -78,6 +82,9 @@ typedef enum{
  */
 + (NSString*) getSDKLanguage;
 
+// SDK 设置的语言
++ (NSString*) getSDKSetUpLanguage;
+
 /**
  * @brief 获取 SDK 的支持的语言列表
  *
@@ -85,6 +92,7 @@ typedef enum{
  */
 + (NSArray*) getSDKLanguages;
 
+- (void)setShouldSendSyncrequest:(BOOL)shouldSendSyncrequest;
 /**
  * 您需要在使用其他 SDK 任意接口前，首先调用此接口来完成相关信息配置。
  * 如果参数第一次配置好之后，视图尝试再次配置是无效的；
@@ -143,6 +151,11 @@ typedef enum{
             options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options;
 #endif
 
+//自动登录
+- (void) automaticLoginWithViewController:(UIViewController*)vc;
+
+//账户管理
+- (void) showAccountManagerCenter: (UIViewController*)aVC;
 /**
  * SDK 唯一的登录接口。
  * 只有在登录后，才能调用 SDK 其他功能接口。
@@ -154,6 +167,8 @@ typedef enum{
  * @param aVC       负责弹出登录视图的视图控制器。（确保在SDK使用期间该对象不会被释放）
  */
 - (void) loginWithDelegate : (id<MODelegate>)aDelegate vc : (UIViewController*)aVC;
+
+- (void) viewDidAppearWithMainViewController: (UIViewController*)mainViewController delegate:(id<MOInitDelegate>)delegate;
 
 /**
  * 注销当前登录状态。
@@ -261,8 +276,18 @@ typedef enum{
  */
 - (void) showConversation:(UIViewController*)ViewController;
 
+/**
+ 储值活动
+ 
+ @param viewController 发起调用的视图控制器
+ */
+- (void) showStoredValue:(UIViewController*)viewController;
 
-
+/**
+ 显示悬浮窗
+ 
+ @param viewController 发起调用的视图控制器
+ */
 - (void) showFloatWindowWithViewController:(UIViewController*)viewController;
 
 //统计事件
@@ -396,6 +421,14 @@ typedef enum{
 
 - (void) activityCallBack:(DLMorliaActivityType)MorliaActivityType activityStatus:(BOOL)status infor:(NSDictionary*)infor;
 
+
+@end
+
+@protocol MOAccountManagerDelegate <NSObject>
+
+@optional
+- (void) userDidSwitchToAccount:(MOUser*)account fromAccuont:(MOUser*)fromAccuont;
+- (void) userDidBindToAccount:(MOUser*)account;
 
 @end
 

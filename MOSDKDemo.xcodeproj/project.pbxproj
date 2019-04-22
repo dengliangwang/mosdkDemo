@@ -35,10 +35,8 @@
 		1D2270B820FD8BA500C4859E /* MOSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2270B720FD8BA400C4859E /* MOSDK.framework */; };
 		1D61959820F8420D00A63ED2 /* MOSDK.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 1D61959720F8420D00A63ED2 /* MOSDK.storyboardc */; };
 		1D61959C20F87CC000A63ED2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D61959B20F87CC000A63ED2 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1D7163D2226DD273007D222B /* libKochavaTrackeriOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7163D0226DD273007D222B /* libKochavaTrackeriOS.a */; };
 		1D7246DE20EA0626007F0FFE /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7246DD20EA0626007F0FFE /* AppsFlyerLib.framework */; };
-		1DA269092178584700373A0C /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DA269062178584600373A0C /* GoogleSignIn.bundle */; };
-		1DA2690A2178584700373A0C /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA269072178584600373A0C /* GoogleSignIn.framework */; };
-		1DA2690B2178584700373A0C /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA269082178584600373A0C /* GoogleSignInDependencies.framework */; };
 		1DF179191FE8BDDA0037BB09 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF179181FE8BDDA0037BB09 /* Bugly.framework */; };
 		8804C7411C9BD69A0091400C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804C7401C9BD69A0091400C /* main.m */; };
 		8804C7441C9BD69A0091400C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804C7431C9BD69A0091400C /* AppDelegate.m */; };
@@ -163,10 +161,15 @@
 		1D2270B720FD8BA400C4859E /* MOSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MOSDK.framework; path = Frameworks/MOSDK.framework; sourceTree = "<group>"; };
 		1D61959720F8420D00A63ED2 /* MOSDK.storyboardc */ = {isa = PBXFileReference; lastKnownFileType = wrapper.storyboardc; name = MOSDK.storyboardc; path = Frameworks/MOSDK.framework/MOSDK.storyboardc; sourceTree = "<group>"; };
 		1D61959B20F87CC000A63ED2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		1D7163CA226DD273007D222B /* KVAPartner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVAPartner.h; sourceTree = "<group>"; };
+		1D7163CB226DD273007D222B /* KVAAsForContextObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVAAsForContextObjectProtocol.h; sourceTree = "<group>"; };
+		1D7163CC226DD273007D222B /* KochavaTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KochavaTracker.h; sourceTree = "<group>"; };
+		1D7163CD226DD273007D222B /* KVAConsent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVAConsent.h; sourceTree = "<group>"; };
+		1D7163CE226DD273007D222B /* KVAContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVAContext.h; sourceTree = "<group>"; };
+		1D7163CF226DD273007D222B /* KochavaEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KochavaEvent.h; sourceTree = "<group>"; };
+		1D7163D0226DD273007D222B /* libKochavaTrackeriOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKochavaTrackeriOS.a; sourceTree = "<group>"; };
+		1D7163D1226DD273007D222B /* KVAFromObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVAFromObjectProtocol.h; sourceTree = "<group>"; };
 		1D7246DD20EA0626007F0FFE /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppsFlyerLib.framework; path = Frameworks/AppsFlyerLib.framework; sourceTree = "<group>"; };
-		1DA269062178584600373A0C /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Frameworks/GoogleSignIn.bundle; sourceTree = "<group>"; };
-		1DA269072178584600373A0C /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
-		1DA269082178584600373A0C /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = Frameworks/GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 		1DF179181FE8BDDA0037BB09 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bugly.framework; path = Frameworks/Bugly.framework; sourceTree = "<group>"; };
 		8804C73C1C9BD69A0091400C /* MOSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8804C7401C9BD69A0091400C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -203,12 +206,11 @@
 				1D0CA5431FB3026B00383825 /* libicucore.tbd in Frameworks */,
 				882273BF1CD88DC700301839 /* libz.tbd in Frameworks */,
 				1D7246DE20EA0626007F0FFE /* AppsFlyerLib.framework in Frameworks */,
-				1DA2690A2178584700373A0C /* GoogleSignIn.framework in Frameworks */,
 				1D0CA5411FB3025300383825 /* AssetsLibrary.framework in Frameworks */,
+				1D7163D2226DD273007D222B /* libKochavaTrackeriOS.a in Frameworks */,
 				0415B1B91EA0B5C6007C6863 /* CoreData.framework in Frameworks */,
 				1D0CA53F1FB3023F00383825 /* MobileCoreServices.framework in Frameworks */,
 				1D0CA53D1FB3023400383825 /* AudioToolbox.framework in Frameworks */,
-				1DA2690B2178584700373A0C /* GoogleSignInDependencies.framework in Frameworks */,
 				1D0CA53B1FB3022800383825 /* AVFoundation.framework in Frameworks */,
 				1D1A7A281FB5CA22002CB806 /* libHelpshift.a in Frameworks */,
 				1D0CA5391FB3021B00383825 /* WebKit.framework in Frameworks */,
@@ -269,6 +271,22 @@
 			path = HSThemes;
 			sourceTree = "<group>";
 		};
+		1D7163C9226DD273007D222B /* libKochavaTrackeriOS */ = {
+			isa = PBXGroup;
+			children = (
+				1D7163CA226DD273007D222B /* KVAPartner.h */,
+				1D7163CB226DD273007D222B /* KVAAsForContextObjectProtocol.h */,
+				1D7163CC226DD273007D222B /* KochavaTracker.h */,
+				1D7163CD226DD273007D222B /* KVAConsent.h */,
+				1D7163CE226DD273007D222B /* KVAContext.h */,
+				1D7163CF226DD273007D222B /* KochavaEvent.h */,
+				1D7163D0226DD273007D222B /* libKochavaTrackeriOS.a */,
+				1D7163D1226DD273007D222B /* KVAFromObjectProtocol.h */,
+			);
+			name = libKochavaTrackeriOS;
+			path = Frameworks/libKochavaTrackeriOS;
+			sourceTree = "<group>";
+		};
 		8804C7331C9BD69A0091400C = {
 			isa = PBXGroup;
 			children = (
@@ -315,9 +333,7 @@
 		880893DF1CAE5A0C0006E600 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1DA269062178584600373A0C /* GoogleSignIn.bundle */,
-				1DA269072178584600373A0C /* GoogleSignIn.framework */,
-				1DA269082178584600373A0C /* GoogleSignInDependencies.framework */,
+				1D7163C9226DD273007D222B /* libKochavaTrackeriOS */,
 				1D2270B720FD8BA400C4859E /* MOSDK.framework */,
 				1D61959B20F87CC000A63ED2 /* iAd.framework */,
 				1D17261920F5C0CE0048F728 /* MOSDK.bundle */,
@@ -385,7 +401,7 @@
 				TargetAttributes = {
 					8804C73B1C9BD69A0091400C = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 3TGAAVKAN5;
+						DevelopmentTeam = 5B9XJQA86J;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -479,7 +495,6 @@
 				1D1A7A241FB5CA22002CB806 /* HelpshiftConfig.plist in Resources */,
 				1D1A7A231FB5CA22002CB806 /* HsLocalization.bundle in Resources */,
 				1D17261B20F5C0CE0048F728 /* MOSDK.bundle in Resources */,
-				1DA269092178584700373A0C /* GoogleSignIn.bundle in Resources */,
 				1D1A7A291FB5CA22002CB806 /* NOTICE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -709,7 +724,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 3TGAAVKAN5;
+				DEVELOPMENT_TEAM = 5B9XJQA86J;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -724,13 +739,14 @@
 					"$(PROJECT_DIR)/Frameworks/MOSDK.framework",
 					"$(PROJECT_DIR)/Frameworks",
 					"$(PROJECT_DIR)/Frameworks/helpshift-sdk-ios-v6.3.0",
+					"$(PROJECT_DIR)/Frameworks/libKochavaTrackeriOS",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.james.zsjl6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhdqwh.qdizen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e974c59f-85d5-437e-ac18-b04b0da97d10";
-				PROVISIONING_PROFILE_SPECIFIER = zsjl6_dev;
+				PROVISIONING_PROFILE_SPECIFIER = zsjlen_dev;
 				VALID_ARCHS = "arm64 armv7s armv7 i386";
 			};
 			name = Debug;
@@ -744,7 +760,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 3TGAAVKAN5;
+				DEVELOPMENT_TEAM = 5B9XJQA86J;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -759,12 +775,13 @@
 					"$(PROJECT_DIR)/Frameworks/MOSDK.framework",
 					"$(PROJECT_DIR)/Frameworks",
 					"$(PROJECT_DIR)/Frameworks/helpshift-sdk-ios-v6.3.0",
+					"$(PROJECT_DIR)/Frameworks/libKochavaTrackeriOS",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.james.zsjl6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhdqwh.qdizen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "fbcab873-b03c-41e1-aeb1-61d2b6b09d7b";
-				PROVISIONING_PROFILE_SPECIFIER = zsjl6_adhoc;
+				PROVISIONING_PROFILE_SPECIFIER = "zsjlen_Ad Hoc";
 				VALID_ARCHS = "arm64 armv7s armv7 i386";
 			};
 			name = Release;

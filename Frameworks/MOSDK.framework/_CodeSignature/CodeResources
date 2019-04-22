@@ -4,361 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>GoogleSignIn.bundle/Info.plist</key>
+		<key>Headers/JYCWindow.h</key>
 		<data>
-		BfmsbcfBh93cy6vWTriZJESBAgw=
+		4CNdocUJSlpuzSroLozJlHSRZFs=
 		</data>
-		<key>GoogleSignIn.bundle/Roboto-Bold.ttf</key>
-		<data>
-		RzJ98PNefNfIZFh0iXp0SWl1RK4=
-		</data>
-		<key>GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cDxgICm2dFjfiPeYCfTua06ieMA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jxk2OQG/+udN2wGUOW9Su8bozmo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3SZfPmiX/uNms0dfyvpJ2YKfYAs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oIntgdmNT8vgklolp0V1aSwni9E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+r5IQg8vmMQGofVbtTfuIpAkegA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R4N2/n6PLvdXwzPAZSdBIQ42i5o=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2WBjXO3mOTycjDC36lU+OkTmMQI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2WBjXO3mOTycjDC36lU+OkTmMQI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1L+WhN4hHZ+DMGL3814nf230sKU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5DCiJO9D0jvvC1MdVuH87FoKE4U=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P9wjOJ2NnRD/MprJTtHsJv4WuYs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aGMUV/zy0qshVO3EGOASJGzb61k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/google.png</key>
-		<data>
-		guERtxRSG8LklxczLu47JIwLjiU=
-		</data>
-		<key>GoogleSignIn.bundle/google@2x.png</key>
-		<data>
-		4UwXGGzo+UtMgR0hUDrtRbq4Wqk=
-		</data>
-		<key>GoogleSignIn.bundle/google@3x.png</key>
-		<data>
-		A1wRWy89eRjMuVCP4K7S0AClNTw=
-		</data>
-		<key>GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rH8HlR4pGTObGw8bLy8hV1SaXCc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6RKTTGxHRy/nJvmB8Z60EcU7AsQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UYII/LAIXTZXAQZRhu8m6Hzo5X8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LL/K3xbMTK7IG6Qk+QFcn6ZhpHA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ngy2avHWwzrEJh13Pj0rUY8J9ww=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			db1eHjFG5mTeudktpC1Ot/Oi+80=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jULNLvjmokqVD3UHXOmQk+ZBjQc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			unBXa+ccwraCiXztEmucSgJEzP8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zTewpBsb/APJbytq7A50tSZ2bFs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vI3aDgwEwt3VJMFBK8qJAg0Ko5g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4m8TqoloX4KRLKngPPKzv9TLWXQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yWB/f7My2pU8Dx9fPakAFD3XGwc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yWB/f7My2pU8Dx9fPakAFD3XGwc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IUy+LgagdPrchWvzRocfuAOUl6c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XbTLbsoyl3Kgy6SWtyoU/xgnOU4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fpOOLcC4LVN6RY0r+k9g1nK8OBw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1qRPYCxnnE40LluJvBG62vyh/9k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gnOdeN9N3tSEMs8tka8GZZcoiGA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jt50UKMQoMZOD1aZlFjHdvxWbUU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MojegLj+aw/rwcX2jRoNMe9kYOs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DVT6LBWhlbRFyHW4QoctIqtm4JU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xxgd4c4pIpGwWTLVSmbZJ9ZelUY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+FbfptuiJTrUGwKylxTvwQZvv1g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BmkG1GdZVSsmsERs6T99Ve1Eb6k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/Jsonable.h</key>
 		<data>
 		9GZ7k2HNU2eEpdMbqkOSpZPysDM=
 		</data>
 		<key>Headers/MO.h</key>
 		<data>
-		MkDsJv7zWLAcWHaqFBN1ItjpuAg=
+		X6FQhTVcpOJIdr4Z6QaJ0pPK0xU=
 		</data>
 		<key>Headers/MOError.h</key>
 		<data>
-		Ei7kqldnZrgwW0cDJGwl6o3LmXk=
+		/GOxVvjKJ7c/QBqqlfK8NsYbUms=
 		</data>
 		<key>Headers/MOGameUser.h</key>
 		<data>
@@ -374,477 +34,275 @@
 		</data>
 		<key>Headers/MOUser.h</key>
 		<data>
-		l4QoBZcfgGtuGh2PnbAhvbHoNKQ=
+		S6SZWa3mrojaU6fJso5k7mfx9kE=
 		</data>
 		<key>Headers/MOUtil.h</key>
 		<data>
-		38XF3SE2caLMPNEYO7x6ldpLB2Y=
+		yMpxuJn9pvD54iq2a39V/SBYOfg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8cgCdSd9cUL3lm5Cq/RejXdV7Tk=
+		0BRyAu9b6EFFzoMk5EKDe2ZgLjE=
 		</data>
-		<key>MOSDK.bundle/activityimages/mosdk_activity_two_bg_image.png</key>
+		<key>MOSDK.storyboardc/3uy-PB-tAm-view-EdU-HR-ATL.nib/objects-11.0+.nib</key>
 		<data>
-		+KqMgt3h8vk8Ax26PeVvT3JZzDg=
+		G4Pp+0Fy3gBc3fcglNC+10zudi0=
 		</data>
-		<key>MOSDK.bundle/activityimages/mosdk_activity_two_close_btn_bg.png</key>
+		<key>MOSDK.storyboardc/3uy-PB-tAm-view-EdU-HR-ATL.nib/runtime.nib</key>
 		<data>
-		eQwMBE/UTa7I7mLqfxIcSiGE8kI=
+		//G1oyTXfNMH+3TsfF+TXQVIuuU=
 		</data>
-		<key>MOSDK.bundle/activityimages/mosdk_activity_two_dot_image.png</key>
+		<key>MOSDK.storyboardc/62G-Bl-Xnm-view-9Ef-b2-dkc.nib/objects-11.0+.nib</key>
 		<data>
-		FRkYlJkQE2Qb64ucJXX3s31exPQ=
+		GqsIt8XfZprYBCsyrnyg8AK5bwA=
 		</data>
-		<key>MOSDK.bundle/activityimages/mosdk_activity_two_go_btn_bg.png</key>
+		<key>MOSDK.storyboardc/62G-Bl-Xnm-view-9Ef-b2-dkc.nib/runtime.nib</key>
 		<data>
-		rG2wvkzXupllGR0qvbilc0t7wJw=
+		9mzcUXGWoqxXnQiF5gqqwL47kqw=
 		</data>
-		<key>MOSDK.bundle/activityimages/mosdk_announcement_form_content_normal_item_bg.png</key>
-		<data>
-		7nyLpgnIuKYRcKPolm6bxQO6638=
-		</data>
-		<key>MOSDK.bundle/activityimages/mosdk_announcement_form_content_selected_item_bg.png</key>
-		<data>
-		w+kZ6cQtjtyRW1Sdi0n962wZfmg=
-		</data>
-		<key>MOSDK.bundle/activityimages/mosdk_common_activity_close_actvity_btn_bg.png</key>
-		<data>
-		G6hEmwJr6WEOWIQ9GQ+owjVFy78=
-		</data>
-		<key>MOSDK.bundle/activityimages/mosdk_common_activity_close_actvity_des_btn_bg.png</key>
-		<data>
-		G6hEmwJr6WEOWIQ9GQ+owjVFy78=
-		</data>
-		<key>MOSDK.bundle/activityimages/mosdk_common_activity_show_actvity_des_btn_bg.png</key>
-		<data>
-		OvKbUER7caANEdcNZU7q+7/HqiU=
-		</data>
-		<key>MOSDK.bundle/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CZq5dBQYPbAS2fyw6SyoA2sENmY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/en.lproj/help.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			edWe1hd8MDRjRuewIKqvo+C6PNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/floatwindow/fw_bg.png</key>
-		<data>
-		EGp1Jkqpn7MpcNcsCBdo1otnkII=
-		</data>
-		<key>MOSDK.bundle/floatwindow/fw_chuzhi_image.png</key>
-		<data>
-		5v+7Ji+1rUC6Q7vI4t4vcbh0/dw=
-		</data>
-		<key>MOSDK.bundle/floatwindow/fw_close_sv_bg.png</key>
-		<data>
-		HkQDjSfeYUJkZ1JCyji3DTIqyMQ=
-		</data>
-		<key>MOSDK.bundle/floatwindow/fw_facebook_image.png</key>
-		<data>
-		lF1L7oytHjOM8iI8nAKvVd9TgvI=
-		</data>
-		<key>MOSDK.bundle/floatwindow/fw_gonggao_iamge.png</key>
-		<data>
-		8ejkuW+6WEAlMQ9Da9EdkodbKjM=
-		</data>
-		<key>MOSDK.bundle/floatwindow/fw_huodong_image.png</key>
-		<data>
-		F72NUtAklKEFl1TCORzueNmJ+4U=
-		</data>
-		<key>MOSDK.bundle/floatwindow/fw_kefu_image.png</key>
-		<data>
-		6a4gCqClw+BHHEmW/MnIp0zGXsU=
-		</data>
-		<key>MOSDK.bundle/floatwindow/fw_user_center.png</key>
-		<data>
-		qr6d56QbLq5Lngj+DmnbIssd8xc=
-		</data>
-		<key>MOSDK.bundle/images/add.png</key>
-		<data>
-		qNFcZMvSf0+sKE4k3kRORSAVYDA=
-		</data>
-		<key>MOSDK.bundle/images/app120.png</key>
-		<data>
-		5bP5JWNtXrniejZCm+xogqV+5vg=
-		</data>
-		<key>MOSDK.bundle/images/back.png</key>
-		<data>
-		UFWHgrAMwlNCcnj5oKxRrxzAI5I=
-		</data>
-		<key>MOSDK.bundle/images/close.png</key>
-		<data>
-		vHkD6WYssiKdSGv+Vk9niMbLFs8=
-		</data>
-		<key>MOSDK.bundle/images/comm.png</key>
-		<data>
-		MdsIZlgnmllDuVjpUh2Afab59eg=
-		</data>
-		<key>MOSDK.bundle/images/facebook/facebook_like_reward_content_image.png</key>
-		<data>
-		b6ryt7MkAez803+ZQxPVxuu5UFE=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_arrow.png</key>
-		<data>
-		tteCL7sVVMtFNSlzCH2uUdJ6NfY=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_close.png</key>
-		<data>
-		Ufd9yuJUuwv2QmitgCs2jT783GM=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_close2.png</key>
-		<data>
-		fVn5bfdylwXeViSjUsvSj8Lfaa4=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_gress.png</key>
-		<data>
-		PcM4uYJnsolaTD3K5F4MnULhg2Y=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_invite.png</key>
-		<data>
-		3N2iMuxXUkKWJ9LVEhpfGsqN7Oo=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_invite_click.png</key>
-		<data>
-		qjbpzePxlV6lGAEkcZSAb1y+h00=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_invite_normal.png</key>
-		<data>
-		o15TzDa80fpnzMXHzUOuvjkZk1k=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_like_click.png</key>
-		<data>
-		CXIGN5B/a0yBp/BhrdHaRZR9Bo0=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_like_normal.png</key>
-		<data>
-		RHcE9wO1HfCb/nN6BISow7sMOuU=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_new.png</key>
-		<data>
-		fniXvKOAB0Ai+nYNKq8dshoxtzo=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_share.png</key>
-		<data>
-		SsuYJGhgOBupvbzEijbxurzaBTI=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_share_click.png</key>
-		<data>
-		O9EmILlcM4f7+1t1cUzP0Xh5ep4=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_share_normal.png</key>
-		<data>
-		Ht0kIkiHXxFADTMEHoMQFIn06pw=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_des_frame.png</key>
-		<data>
-		YbLOd2Jx8xdotU19SbLLaYmPPUU=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_120.png</key>
-		<data>
-		63C2ihuYuiZjd8kMX/5oVVMo7kM=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_48.png</key>
-		<data>
-		ATWr6E0aIOcfA67jjdgt9hdM7vs=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_96.png</key>
-		<data>
-		6Ys1KTXx3LoEweTFRqrly8lNzQo=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_invite.png</key>
-		<data>
-		LVr5VefvizZognRTJ+Y97+op1wQ=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_like.png</key>
-		<data>
-		bKYXoOAVdVAz+zyWBLkzNzrNB3k=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_reach.png</key>
-		<data>
-		ZLZJIDt1QoG8aGeyLJwra9Aq26c=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_unreach.png</key>
-		<data>
-		X+9YaqFz/efq11w0b4NZLClDxsI=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_invite_progress.png</key>
-		<data>
-		AiAx01TxVOroqxtjpmaCSdV7sPo=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_invite_progress_bg.png</key>
-		<data>
-		PcM4uYJnsolaTD3K5F4MnULhg2Y=
-		</data>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_share_bg.png</key>
-		<data>
-		hC0Zp/Wa8bmcDlYq5RZ2sPxW6NM=
-		</data>
-		<key>MOSDK.bundle/images/facebook_login.png</key>
-		<data>
-		woPXD8wMGEbs5luNkKYPQ7UjkI4=
-		</data>
-		<key>MOSDK.bundle/images/fb120.png</key>
-		<data>
-		63C2ihuYuiZjd8kMX/5oVVMo7kM=
-		</data>
-		<key>MOSDK.bundle/images/fb48.png</key>
-		<data>
-		ATWr6E0aIOcfA67jjdgt9hdM7vs=
-		</data>
-		<key>MOSDK.bundle/images/gamecenter_login.png</key>
-		<data>
-		w1Hjq03PwiaMZNzRYuWW6lskAKg=
-		</data>
-		<key>MOSDK.bundle/images/google_login.png</key>
-		<data>
-		TLLR7uBBmpWfhl5I0A1W9VemCEA=
-		</data>
-		<key>MOSDK.bundle/images/gt1.png</key>
-		<data>
-		w44ymFc7J26qHnXYnMPOW/BnZ4A=
-		</data>
-		<key>MOSDK.bundle/images/gt2.png</key>
-		<data>
-		N1dgTV9+jwQAbi+/TnSlz/j4HeM=
-		</data>
-		<key>MOSDK.bundle/images/guest_login.png</key>
-		<data>
-		Wl8OaISUDdEoCAiuYzqocc96Liw=
-		</data>
-		<key>MOSDK.bundle/images/loading_01.png</key>
-		<data>
-		wkmN5xabyvrnHndcJ4wPINv4/HE=
-		</data>
-		<key>MOSDK.bundle/images/loading_02.png</key>
-		<data>
-		T/wxwLiiFrDtoZW0ihbKh3byluY=
-		</data>
-		<key>MOSDK.bundle/images/loading_03.png</key>
-		<data>
-		KX3Fxymkw55MNgtXF8whpFD+QMY=
-		</data>
-		<key>MOSDK.bundle/images/loading_04.png</key>
-		<data>
-		Y15G5vdW5XIQSdajih1vhiQw3C8=
-		</data>
-		<key>MOSDK.bundle/images/loading_05.png</key>
-		<data>
-		VcGu3hso2Lr2zx+5cKmHw/lCS4c=
-		</data>
-		<key>MOSDK.bundle/images/loading_06.png</key>
-		<data>
-		jaZZwTd/fDlRyl6rQrOGwW7PbzE=
-		</data>
-		<key>MOSDK.bundle/images/loading_07.png</key>
-		<data>
-		gFwbroo8OoJFJ5Fp8tQghB3iUYk=
-		</data>
-		<key>MOSDK.bundle/images/loading_08.png</key>
-		<data>
-		LqSDGdDWzt9hzF4rw8zkgl0Hujo=
-		</data>
-		<key>MOSDK.bundle/images/logo120.png</key>
-		<data>
-		m2kbWv1y6LX4kes9fk1PcL2IF40=
-		</data>
-		<key>MOSDK.bundle/images/logo120g.png</key>
-		<data>
-		m2kbWv1y6LX4kes9fk1PcL2IF40=
-		</data>
-		<key>MOSDK.bundle/images/logo48.png</key>
-		<data>
-		yBPXdD6B6ZT7IAFDJGqZt+YVZ2c=
-		</data>
-		<key>MOSDK.bundle/images/logo48g.png</key>
-		<data>
-		yBPXdD6B6ZT7IAFDJGqZt+YVZ2c=
-		</data>
-		<key>MOSDK.bundle/images/logo56.png</key>
-		<data>
-		ce1TikyPQ0LXInF6o69nyuCLY/8=
-		</data>
-		<key>MOSDK.bundle/ja-JP.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0pgJpCmab/QrAGZOz3vUxNojuWI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/ja-JP.lproj/help.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lsjvyXcq8gE5E5SZK/9PW/23Aso=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/ko-KR.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W3aB/yr3h5zN0s4OuC/HM7/7to0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/ko-KR.lproj/help.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			edWe1hd8MDRjRuewIKqvo+C6PNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/zh-Hans.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WU2vf0JyIadnMq3llj8M2PRTHGo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/zh-Hans.lproj/help.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			edWe1hd8MDRjRuewIKqvo+C6PNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/zh-Hant.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fE07KGzGlK+dTcU7PublGRd9RsA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/zh-Hant.lproj/help.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			edWe1hd8MDRjRuewIKqvo+C6PNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>MOSDK.storyboardc/6ew-Ii-bjw-view-kEV-PB-Ti8.nib/objects-11.0+.nib</key>
 		<data>
-		W2q76lfXPhqwUoNO3mpo+j8yZHs=
+		lT9USfJiuCdImvXrrx63/mtkEhg=
 		</data>
 		<key>MOSDK.storyboardc/6ew-Ii-bjw-view-kEV-PB-Ti8.nib/runtime.nib</key>
 		<data>
-		q96JqWhMvY57vrGecljSYnnR7jc=
+		snHpZHhilmJHePJaeE2855twLB4=
 		</data>
 		<key>MOSDK.storyboardc/CommentaryActivitiesViewController.nib/objects-11.0+.nib</key>
 		<data>
-		kRI3Y3lHF5+ncn42eDXPHecX0tc=
+		kRz+4SrNHMcXJO4wTsP5rta0Hz8=
 		</data>
 		<key>MOSDK.storyboardc/CommentaryActivitiesViewController.nib/runtime.nib</key>
 		<data>
-		IZ0uY8HzmxBOajjQzMXB6JAtfSw=
+		ePbrhjI3o4tXUu3H5i01DVncERY=
+		</data>
+		<key>MOSDK.storyboardc/DLAccountBindStyleViewController.nib/objects-11.0+.nib</key>
+		<data>
+		reYZfBimDqTIDMzbomBz8aBS5rE=
+		</data>
+		<key>MOSDK.storyboardc/DLAccountBindStyleViewController.nib/runtime.nib</key>
+		<data>
+		LuZRQ4E6A/v0TPeyiET+2/oAY8g=
+		</data>
+		<key>MOSDK.storyboardc/DLAccountBindViewController.nib/objects-11.0+.nib</key>
+		<data>
+		FOuHoR2FyZvvP9O1x+OXXk+DQMY=
+		</data>
+		<key>MOSDK.storyboardc/DLAccountBindViewController.nib/runtime.nib</key>
+		<data>
+		+C7zarojgbwbV5whZ0Zx+iJH5FI=
+		</data>
+		<key>MOSDK.storyboardc/DLAccountManagerViewController.nib/objects-11.0+.nib</key>
+		<data>
+		puG9ZqP7lB41WS2OY2nBz9UUFqA=
+		</data>
+		<key>MOSDK.storyboardc/DLAccountManagerViewController.nib/runtime.nib</key>
+		<data>
+		IpUpaAyDwOCRt+016Bl0m3sgM3Y=
 		</data>
 		<key>MOSDK.storyboardc/DLActivityModel1ViewController.nib/objects-11.0+.nib</key>
 		<data>
-		scTEeqV3zCF6xmcDbWK798dshVs=
+		N7mbMlGde+4WE3AKUEN0bXXaUsk=
 		</data>
 		<key>MOSDK.storyboardc/DLActivityModel1ViewController.nib/runtime.nib</key>
 		<data>
-		ANqaTYaIUkBJGzuzjSVy7o8B/aE=
+		QFmTNFTiAcJn9WRfEthl2wMCL0c=
 		</data>
 		<key>MOSDK.storyboardc/DLAnnouncementViewController.nib/objects-11.0+.nib</key>
 		<data>
-		mDX2Tu6f51qJ5r808Ge/d5dkqgo=
+		weJ46pxvPnHeOOEOunPu7iN2YOQ=
 		</data>
 		<key>MOSDK.storyboardc/DLAnnouncementViewController.nib/runtime.nib</key>
 		<data>
-		r6LijqTp5T9rjNMofEaRMVu6mQQ=
+		SFwUvEbS3VC8X5LgNBVEPJj573k=
+		</data>
+		<key>MOSDK.storyboardc/DLBindViewController.nib/objects-11.0+.nib</key>
+		<data>
+		pQlfoApwYHNTlW+5usJxivRDAO4=
+		</data>
+		<key>MOSDK.storyboardc/DLBindViewController.nib/runtime.nib</key>
+		<data>
+		33V3en1YbWBWnAr2E0YT+GoLV0c=
+		</data>
+		<key>MOSDK.storyboardc/DLLoginViewController.nib/objects-11.0+.nib</key>
+		<data>
+		Nh9Dbcs2YPgeE0LcKVD4a2L2/LI=
+		</data>
+		<key>MOSDK.storyboardc/DLLoginViewController.nib/runtime.nib</key>
+		<data>
+		HY7US+q3gqFuWH/cCEcQFpAo4oE=
+		</data>
+		<key>MOSDK.storyboardc/DLRegisterViewController.nib/objects-11.0+.nib</key>
+		<data>
+		5kSkN7sZ9Mm+IT58X/0sA0ngMik=
+		</data>
+		<key>MOSDK.storyboardc/DLRegisterViewController.nib/runtime.nib</key>
+		<data>
+		WjbcX0FtklRztpOFXyhaRAtLLBE=
+		</data>
+		<key>MOSDK.storyboardc/DLResetPassWordViewController.nib/objects-11.0+.nib</key>
+		<data>
+		U2ykMjIHHfcVL+reVlcTLm8W8SQ=
+		</data>
+		<key>MOSDK.storyboardc/DLResetPassWordViewController.nib/runtime.nib</key>
+		<data>
+		CuwqCDD5lVDrgi9mJDPh38Biki8=
 		</data>
 		<key>MOSDK.storyboardc/DLSmallGameViewController.nib/objects-11.0+.nib</key>
 		<data>
-		zp/06HBCVb6BSJvc/crXYmBSjZ8=
+		Q1ao2r33JFIQeSHhCub4hBU0yq4=
 		</data>
 		<key>MOSDK.storyboardc/DLSmallGameViewController.nib/runtime.nib</key>
 		<data>
-		paRhMCepLOy4au21HmSATPX3L4U=
+		9oI9LGxwRGSCk5PM9e/kah8g83w=
+		</data>
+		<key>MOSDK.storyboardc/DLSwitchAccountViewController.nib/objects-11.0+.nib</key>
+		<data>
+		Zn9UxiHKsmMPjw08qwhEeCPde7o=
+		</data>
+		<key>MOSDK.storyboardc/DLSwitchAccountViewController.nib/runtime.nib</key>
+		<data>
+		SPt/CLQgIyblOiaz1CqgtHWBSU8=
+		</data>
+		<key>MOSDK.storyboardc/DLVerificationCodeViewController.nib/objects-11.0+.nib</key>
+		<data>
+		11jooynnGdCNKsqwIWBH28tykHg=
+		</data>
+		<key>MOSDK.storyboardc/DLVerificationCodeViewController.nib/runtime.nib</key>
+		<data>
+		OLG0YR+eHJXCSWjhwtDcBRnkML0=
 		</data>
 		<key>MOSDK.storyboardc/Dd5-Wv-4Uy-view-ejf-ax-1e1.nib/objects-11.0+.nib</key>
 		<data>
-		LUNcE7aj9PRIg4nCOL+8i2JJ+cs=
+		MD77Cd9QKhxdzUqmmeB0i/ht9/I=
 		</data>
 		<key>MOSDK.storyboardc/Dd5-Wv-4Uy-view-ejf-ax-1e1.nib/runtime.nib</key>
 		<data>
-		aMiHQlzpNaxYCK8GEHTr9m7yBs0=
+		3nbegM7v6ICOq4Wbcb76/cRCsjA=
 		</data>
 		<key>MOSDK.storyboardc/FBViewController.nib/objects-11.0+.nib</key>
 		<data>
-		NFRnH8qCu0RDqrcOmqqN8YztjBc=
+		op0LFs74Qq4xu7GDVXeE+2EuUPw=
 		</data>
 		<key>MOSDK.storyboardc/FBViewController.nib/runtime.nib</key>
 		<data>
-		bFZgp+L4wnZm3fJogOch+AqPoI8=
+		8glf/faGc4q4EqFjxqgs1t/C4kM=
+		</data>
+		<key>MOSDK.storyboardc/HWo-Sd-vzU-view-DPV-ut-O40.nib/objects-11.0+.nib</key>
+		<data>
+		NYe8SwxLXn2LW8y3+DNT1GmK8aA=
+		</data>
+		<key>MOSDK.storyboardc/HWo-Sd-vzU-view-DPV-ut-O40.nib/runtime.nib</key>
+		<data>
+		jc8yni2JaQvwNzvOr15SV0w5l9k=
 		</data>
 		<key>MOSDK.storyboardc/Info.plist</key>
 		<data>
-		nfDg+yxdMTt/O/6y9x0EAqCF99w=
+		PEnQWbEDjysWxOXG2wfuG/lG7EM=
+		</data>
+		<key>MOSDK.storyboardc/LoadingVC.nib/objects-11.0+.nib</key>
+		<data>
+		N2/91KHkQvS6sBERgTvANkY8kjw=
+		</data>
+		<key>MOSDK.storyboardc/LoadingVC.nib/runtime.nib</key>
+		<data>
+		HOOfTrBPSoUuW/sy6kc32rfYQxw=
 		</data>
 		<key>MOSDK.storyboardc/P6S-If-wdY-view-ebB-C0-LYc.nib/objects-11.0+.nib</key>
 		<data>
-		s+ebTi/foHV7XRJcx4OVzhSDVHY=
+		juSmhvgETJUOUBsJ8jvi60jTX+o=
 		</data>
 		<key>MOSDK.storyboardc/P6S-If-wdY-view-ebB-C0-LYc.nib/runtime.nib</key>
 		<data>
-		k++SDVL8MeRrqFBQMbU4MBMVdAE=
+		N2HR/fmJC2I1nsUG92I1OzG2ZPg=
+		</data>
+		<key>MOSDK.storyboardc/Qam-o8-7W7-view-rSu-4d-VpM.nib/objects-11.0+.nib</key>
+		<data>
+		JnRXvjwWYqLfcaoL4q29LxwhNGg=
+		</data>
+		<key>MOSDK.storyboardc/Qam-o8-7W7-view-rSu-4d-VpM.nib/runtime.nib</key>
+		<data>
+		7IDdOzOYBy/UPqW+B26zpczHvhw=
+		</data>
+		<key>MOSDK.storyboardc/SPC-t0-7f3-view-sdG-b1-Ioi.nib/objects-11.0+.nib</key>
+		<data>
+		ItCk9g/ZyNeiCGWrhxnKGfNcNag=
+		</data>
+		<key>MOSDK.storyboardc/SPC-t0-7f3-view-sdG-b1-Ioi.nib/runtime.nib</key>
+		<data>
+		BNGJD1/C0OStSlfVQoHCxzGThuA=
 		</data>
 		<key>MOSDK.storyboardc/StoredValueViewController.nib/objects-11.0+.nib</key>
 		<data>
-		YoglhMMGnuQbePE/N4HjMp7edTY=
+		Rpvo+qfOsOgxo657MHjh0JKQ0Sk=
 		</data>
 		<key>MOSDK.storyboardc/StoredValueViewController.nib/runtime.nib</key>
 		<data>
-		ofZTjFt4NJ5Mu8mB36OYc9XQogk=
+		cyixScSsmWNJz/tjUh3iBtPmzeE=
+		</data>
+		<key>MOSDK.storyboardc/TZB-OF-7bE-view-2sf-K2-9FH.nib/objects-11.0+.nib</key>
+		<data>
+		AAQjdjZRd1/o+MBao3grR1Ff6JI=
+		</data>
+		<key>MOSDK.storyboardc/TZB-OF-7bE-view-2sf-K2-9FH.nib/runtime.nib</key>
+		<data>
+		BqSeUXVs8xnC4BHxnO/+Ga+xF00=
 		</data>
 		<key>MOSDK.storyboardc/Yxe-QH-7tz-view-fgW-Pd-sLo.nib/objects-11.0+.nib</key>
 		<data>
-		lqrW8KYA9khzf6eSykb8id8rvLw=
+		vrdxxgiMcIA85nb93KIDHdZr54c=
 		</data>
 		<key>MOSDK.storyboardc/Yxe-QH-7tz-view-fgW-Pd-sLo.nib/runtime.nib</key>
 		<data>
-		K82Rz+E2hhpRKGp1dY8XE34X0Ms=
+		tgyUdWZSQQybsxNb+qUWQ5oQH40=
 		</data>
 		<key>MOSDK.storyboardc/dyL-9N-gYR-view-b93-p3-cT8.nib/objects-11.0+.nib</key>
 		<data>
-		GlQZ4nr6xyFyQwZiOECvriZNAlc=
+		ZA5E5K1MuUWY2y+fw0aw2TRv6Do=
 		</data>
 		<key>MOSDK.storyboardc/dyL-9N-gYR-view-b93-p3-cT8.nib/runtime.nib</key>
 		<data>
-		DoWkycax9hX1SwWLvexKCUtSyNo=
+		LUuBOIjL7W+u/tqLF4dkeQf7F+8=
+		</data>
+		<key>MOSDK.storyboardc/ege-fZ-Auy-view-JH6-uJ-nnk.nib/objects-11.0+.nib</key>
+		<data>
+		Iyy1D6TVjQXNuGGgZfIvOgLFd+0=
+		</data>
+		<key>MOSDK.storyboardc/ege-fZ-Auy-view-JH6-uJ-nnk.nib/runtime.nib</key>
+		<data>
+		6l+r9S7D+dn6aHFvssbZW+58llY=
+		</data>
+		<key>MOSDK.storyboardc/mf9-By-SlE-view-ci3-ss-cqU.nib/objects-11.0+.nib</key>
+		<data>
+		BYyd6Nd4vekX45hS9womkr1hsqI=
+		</data>
+		<key>MOSDK.storyboardc/mf9-By-SlE-view-ci3-ss-cqU.nib/runtime.nib</key>
+		<data>
+		us8XNuDb1azs/KJwGvGzzXyK3i0=
 		</data>
 		<key>MOSDK.storyboardc/ndd-30-l4G-view-aS5-1q-Mur.nib/objects-11.0+.nib</key>
 		<data>
-		GYxoNCxdZciI49yf+rZ7f0qRHUU=
+		fcdWHhHBCi49jEIVS9ka43IcoL8=
 		</data>
 		<key>MOSDK.storyboardc/ndd-30-l4G-view-aS5-1q-Mur.nib/runtime.nib</key>
 		<data>
-		xRhX2eQBW0kxzHTSHw8KQo+xyBM=
+		NhuqxR4T3pFMi6u9DXMhZiKoWhA=
+		</data>
+		<key>MOSDK.storyboardc/rbh-EF-oDb-view-hCU-8u-RZk.nib/objects-11.0+.nib</key>
+		<data>
+		rtjByIJVkbl2/6QfD0d4FSoHdkY=
+		</data>
+		<key>MOSDK.storyboardc/rbh-EF-oDb-view-hCU-8u-RZk.nib/runtime.nib</key>
+		<data>
+		4evcqLSyuGppfY6Ud5SbkVZTLz8=
+		</data>
+		<key>MOSDK.storyboardc/xoN-Kb-gVB-view-FQ2-6v-uRj.nib/objects-11.0+.nib</key>
+		<data>
+		UsWOKrk7M4tWtzl9Y32ujH32EZE=
+		</data>
+		<key>MOSDK.storyboardc/xoN-Kb-gVB-view-FQ2-6v-uRj.nib/runtime.nib</key>
+		<data>
+		qmReanr7P60yQT8cbmO54bw3Xps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -852,541 +310,25 @@
 		</data>
 		<key>confuse.sh</key>
 		<data>
-		ozKwDkDBPPpdv+q2yRjvMxYkIO0=
+		fUC/aA1lL00uPzkS+Q3yXbUH06M=
 		</data>
 		<key>func.list</key>
 		<data>
-		Jl18xd6Nm/rfZc6dgU8BBm80TpE=
-		</data>
-		<key>华康新综艺体.TTC</key>
-		<data>
-		Eqyl9BRn7+1xw4jbdPkKGvbX6y4=
+		oUsQlLws3VfIz3hM3CK8p/LyqVg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>GoogleSignIn.bundle/Info.plist</key>
+		<key>Headers/JYCWindow.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BfmsbcfBh93cy6vWTriZJESBAgw=
+			4CNdocUJSlpuzSroLozJlHSRZFs=
 			</data>
 			<key>hash2</key>
 			<data>
-			cHPgF7KYTJP00yku/fna1q7LCMLLQQkAHvGCVjllTs0=
+			R1uMU3npZE1XCODCPwWr/uA9y7EKR0xJHjW1bkod3hw=
 			</data>
-		</dict>
-		<key>GoogleSignIn.bundle/Roboto-Bold.ttf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RzJ98PNefNfIZFh0iXp0SWl1RK4=
-			</data>
-			<key>hash2</key>
-			<data>
-			WU10pJ4we+fMnh7l8QI2hOaCDPEbzJaL7lkDkeGtWlo=
-			</data>
-		</dict>
-		<key>GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cDxgICm2dFjfiPeYCfTua06ieMA=
-			</data>
-			<key>hash2</key>
-			<data>
-			QeWsAsqQdz3nqtJU93kytvszFvFRLmw0W1h+Rmlwfho=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jxk2OQG/+udN2wGUOW9Su8bozmo=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZfmeidsaGhR8JQbM6KjQwYNLlpei2eDR3UKkWLBcuhw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3SZfPmiX/uNms0dfyvpJ2YKfYAs=
-			</data>
-			<key>hash2</key>
-			<data>
-			kx9XTkE8E6q9RP94Pjo1EQQtF+LVoAsHtrstRw2/o+k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oIntgdmNT8vgklolp0V1aSwni9E=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q+HbBsKMKlrhfMNDnDtpIXaoETHxGFFSgxsXN5U5ITs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+r5IQg8vmMQGofVbtTfuIpAkegA=
-			</data>
-			<key>hash2</key>
-			<data>
-			HSf39naS/xqZ0zmjV2eRJpqEQ/XXahiRZ/TzW+2lmes=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R4N2/n6PLvdXwzPAZSdBIQ42i5o=
-			</data>
-			<key>hash2</key>
-			<data>
-			RuBwkBJ32OYhWsxkWpWiQm/kYRJjmcT7qxwABqVu9xM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2WBjXO3mOTycjDC36lU+OkTmMQI=
-			</data>
-			<key>hash2</key>
-			<data>
-			5oyYC/GOYosb/fhfcdtDWh/ZIn9spDhwbqzhHacw6dQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2WBjXO3mOTycjDC36lU+OkTmMQI=
-			</data>
-			<key>hash2</key>
-			<data>
-			5oyYC/GOYosb/fhfcdtDWh/ZIn9spDhwbqzhHacw6dQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1L+WhN4hHZ+DMGL3814nf230sKU=
-			</data>
-			<key>hash2</key>
-			<data>
-			rvLIqlTvGX2MdaFGD4AQyZRK7VCiKDsMAqPLg/fx0vk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5DCiJO9D0jvvC1MdVuH87FoKE4U=
-			</data>
-			<key>hash2</key>
-			<data>
-			Pe5RKPisvYpVr+z9xL0ETLp64N4F5eaoALJlc34APa8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P9wjOJ2NnRD/MprJTtHsJv4WuYs=
-			</data>
-			<key>hash2</key>
-			<data>
-			2jqJTq0bel6ohlwvErW+mfDMZ9SyU7XbfVxDJFRRoLo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aGMUV/zy0qshVO3EGOASJGzb61k=
-			</data>
-			<key>hash2</key>
-			<data>
-			CceqS0KGsVkiAAaIngsMVpQkBbOgAoss+5CMTUce5cM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/google.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			guERtxRSG8LklxczLu47JIwLjiU=
-			</data>
-			<key>hash2</key>
-			<data>
-			H2IokCB8oNkRwgBLBEZLd0w6oN+iN1BU/iAZdGyDMKU=
-			</data>
-		</dict>
-		<key>GoogleSignIn.bundle/google@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4UwXGGzo+UtMgR0hUDrtRbq4Wqk=
-			</data>
-			<key>hash2</key>
-			<data>
-			Mjq4n6IBYa2yGeFxUDX5MS6Ty2kwi1TyDkPS11aFwLI=
-			</data>
-		</dict>
-		<key>GoogleSignIn.bundle/google@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			A1wRWy89eRjMuVCP4K7S0AClNTw=
-			</data>
-			<key>hash2</key>
-			<data>
-			vuNrWCRZeBKrexqD2NEDZOScuuIxG5X6EYoYNxvcJlU=
-			</data>
-		</dict>
-		<key>GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rH8HlR4pGTObGw8bLy8hV1SaXCc=
-			</data>
-			<key>hash2</key>
-			<data>
-			GG5Fd+wnZBEcg0OkegzcIjWn9HE0QZGfSR+3KnrtAxM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6RKTTGxHRy/nJvmB8Z60EcU7AsQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			wEHxJlEbvLb7hU7ofL2FfDX13pJ6dVRAjuFznjDnlp8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UYII/LAIXTZXAQZRhu8m6Hzo5X8=
-			</data>
-			<key>hash2</key>
-			<data>
-			he/9SVQjyA8PYs/R2dTeLOf9igAcPguZC02CsESsEqA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LL/K3xbMTK7IG6Qk+QFcn6ZhpHA=
-			</data>
-			<key>hash2</key>
-			<data>
-			RLK/rHW741lq7AOEDitscgdXlB0y9xumOHvxKZIodA4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ngy2avHWwzrEJh13Pj0rUY8J9ww=
-			</data>
-			<key>hash2</key>
-			<data>
-			JdOg09soRkPdvJSxgiCfoskvU3cz6ELwTi+4jYOXiJM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			db1eHjFG5mTeudktpC1Ot/Oi+80=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ong8D3nhGWQfs+yRetHtUHhEaFms4f1xhM/Z/k5Ycds=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jULNLvjmokqVD3UHXOmQk+ZBjQc=
-			</data>
-			<key>hash2</key>
-			<data>
-			7o4SjvNEt5bfDcNBXGs9jMLj1u6eoMTEE5+6KeDoIU0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			unBXa+ccwraCiXztEmucSgJEzP8=
-			</data>
-			<key>hash2</key>
-			<data>
-			QYe68xn7iXAZTFhmLehys+s/yS5C3fdgen/jns/deeM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zTewpBsb/APJbytq7A50tSZ2bFs=
-			</data>
-			<key>hash2</key>
-			<data>
-			dkpsHzBx5MRCV8wgSIlKEsNLFsFbsa7SKNEvnbyc9ek=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vI3aDgwEwt3VJMFBK8qJAg0Ko5g=
-			</data>
-			<key>hash2</key>
-			<data>
-			qzhg8aNd8zVLpTc5QRYR/MhH4dAZh3iAOAYkz+o0XvU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4m8TqoloX4KRLKngPPKzv9TLWXQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			c+PbYoLry3AjLPAvYONHcVl60jfkYpgDVwfdbVGOG3A=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yWB/f7My2pU8Dx9fPakAFD3XGwc=
-			</data>
-			<key>hash2</key>
-			<data>
-			ctPMiKEB/qnRRu3wweYrj/UUYBmhKJjEBW2sIW1dyyU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yWB/f7My2pU8Dx9fPakAFD3XGwc=
-			</data>
-			<key>hash2</key>
-			<data>
-			ctPMiKEB/qnRRu3wweYrj/UUYBmhKJjEBW2sIW1dyyU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IUy+LgagdPrchWvzRocfuAOUl6c=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZJBKeZJOir9VJLitpufUU42wpNS5VZPl6Y0fImF55xQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XbTLbsoyl3Kgy6SWtyoU/xgnOU4=
-			</data>
-			<key>hash2</key>
-			<data>
-			VW0ZrNINFZTWcvwG9EIgMvXVxn9YA70KP45Hg4lRLE8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fpOOLcC4LVN6RY0r+k9g1nK8OBw=
-			</data>
-			<key>hash2</key>
-			<data>
-			TGe/eN9P18suxLb7X1mwbCtoNXRIfxxwaJQTPvH5Cco=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1qRPYCxnnE40LluJvBG62vyh/9k=
-			</data>
-			<key>hash2</key>
-			<data>
-			Vwb9ExTGe6S5S7BTegcLSteiFFhKKwZZSJYLzlqESZg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gnOdeN9N3tSEMs8tka8GZZcoiGA=
-			</data>
-			<key>hash2</key>
-			<data>
-			yvueI88V8Lz3pz/ZmgDyeeD8hhunccQ5PsRVApQp6Mk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jt50UKMQoMZOD1aZlFjHdvxWbUU=
-			</data>
-			<key>hash2</key>
-			<data>
-			VjLtxICcSKnA1/BjlPISUBu68sr0thGR7cBhnGXp1KM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MojegLj+aw/rwcX2jRoNMe9kYOs=
-			</data>
-			<key>hash2</key>
-			<data>
-			ELN9x8rZefXceZlX+h6q0+KdoD9/KfgwWV30ZAjhahs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DVT6LBWhlbRFyHW4QoctIqtm4JU=
-			</data>
-			<key>hash2</key>
-			<data>
-			tfJEysLSnJZ9Vr8e6QHNx6KJkHl9HZogS1ByD7KFIpI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xxgd4c4pIpGwWTLVSmbZJ9ZelUY=
-			</data>
-			<key>hash2</key>
-			<data>
-			CXFonEwOB280/OyTZgekOcnf7cE3aLu2J8YjQTb3G6k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+FbfptuiJTrUGwKylxTvwQZvv1g=
-			</data>
-			<key>hash2</key>
-			<data>
-			WYAJ9XvPgbNJDvefceY76te5PXwpDAhwKxR6NEC2dCA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BmkG1GdZVSsmsERs6T99Ve1Eb6k=
-			</data>
-			<key>hash2</key>
-			<data>
-			q9cnMFn9ze7oe33zAJd++Izm6xzT5qn1FgoA5PwoNcs=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Headers/Jsonable.h</key>
 		<dict>
@@ -1403,22 +345,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MkDsJv7zWLAcWHaqFBN1ItjpuAg=
+			X6FQhTVcpOJIdr4Z6QaJ0pPK0xU=
 			</data>
 			<key>hash2</key>
 			<data>
-			2+CDFyxKBJboMeSnsbt9w3jyPZvln9n/QCh06wCVNxE=
+			GmZbvsn3xl+Pq16a68p+op6irL9ZfB1V/pPdZ6N5j2w=
 			</data>
 		</dict>
 		<key>Headers/MOError.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ei7kqldnZrgwW0cDJGwl6o3LmXk=
+			/GOxVvjKJ7c/QBqqlfK8NsYbUms=
 			</data>
 			<key>hash2</key>
 			<data>
-			mDGZ5POsvZ2UflOyuOFm4RDmq/1WLN6RwD/96QAST+Q=
+			iU99YCSFC95mY2ATa7JtKG/1yGkQIjbqcp8IpRFjMU0=
 			</data>
 		</dict>
 		<key>Headers/MOGameUser.h</key>
@@ -1458,1175 +400,737 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l4QoBZcfgGtuGh2PnbAhvbHoNKQ=
+			S6SZWa3mrojaU6fJso5k7mfx9kE=
 			</data>
 			<key>hash2</key>
 			<data>
-			8jTU4Zyz1m8BREfHSCWCHk4RUJq1u9wYu4TxN3TPS3c=
+			WxWExmvxQ4S7JteDG5gyKrK4qPQIXIBUawPauehmaLU=
 			</data>
 		</dict>
 		<key>Headers/MOUtil.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			38XF3SE2caLMPNEYO7x6ldpLB2Y=
+			yMpxuJn9pvD54iq2a39V/SBYOfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			JJw7SMNUpw/0fXupyxLJL95EyasZeeJeMWraj6T+K9E=
+			8MNBze8wnOWp4eniDn0FIWmGap/wEVGfS1d+V1LlFYk=
 			</data>
 		</dict>
-		<key>MOSDK.bundle/activityimages/mosdk_activity_two_bg_image.png</key>
+		<key>MOSDK.storyboardc/3uy-PB-tAm-view-EdU-HR-ATL.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+KqMgt3h8vk8Ax26PeVvT3JZzDg=
+			G4Pp+0Fy3gBc3fcglNC+10zudi0=
 			</data>
 			<key>hash2</key>
 			<data>
-			VAEj2dUtLq7sVD8oCtPTVzQgfdLG4ZLKyWHSX/OhriE=
+			ATLXNLIaYQuaAUU3qgDfZykvSeEJRdiUNfJwUQDeetk=
 			</data>
 		</dict>
-		<key>MOSDK.bundle/activityimages/mosdk_activity_two_close_btn_bg.png</key>
+		<key>MOSDK.storyboardc/3uy-PB-tAm-view-EdU-HR-ATL.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eQwMBE/UTa7I7mLqfxIcSiGE8kI=
+			//G1oyTXfNMH+3TsfF+TXQVIuuU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bBwnllPbcuqL9JBlDB6VAxNEvKjHwHkPlvg3UnxM3T4=
+			p63npc5ocxgglng3iwejOOgXR3ydMueIRWAm40yt5Nk=
 			</data>
 		</dict>
-		<key>MOSDK.bundle/activityimages/mosdk_activity_two_dot_image.png</key>
+		<key>MOSDK.storyboardc/62G-Bl-Xnm-view-9Ef-b2-dkc.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FRkYlJkQE2Qb64ucJXX3s31exPQ=
+			GqsIt8XfZprYBCsyrnyg8AK5bwA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bq7oXz3R6k+sCr2Cv4Rbn2mCk+mNi39w6zt1H5iqVf0=
+			2rmGHlzfaug5ILce1YtPeGTeeY/PLQlpKE+N9Y2Gfag=
 			</data>
 		</dict>
-		<key>MOSDK.bundle/activityimages/mosdk_activity_two_go_btn_bg.png</key>
+		<key>MOSDK.storyboardc/62G-Bl-Xnm-view-9Ef-b2-dkc.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rG2wvkzXupllGR0qvbilc0t7wJw=
+			9mzcUXGWoqxXnQiF5gqqwL47kqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			192tOxEBXpVDwlA1VCvR8pJASLfh6P7sYr13P2LKp1Y=
+			c24h0u662cVOiJmpHQ+w11cUkl/pLmOK9Ijqzj57em0=
 			</data>
-		</dict>
-		<key>MOSDK.bundle/activityimages/mosdk_announcement_form_content_normal_item_bg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7nyLpgnIuKYRcKPolm6bxQO6638=
-			</data>
-			<key>hash2</key>
-			<data>
-			Qtu1RPaqYBTSrxT0rfyvETrjEXB1esY5V5vFZNxxWww=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/activityimages/mosdk_announcement_form_content_selected_item_bg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w+kZ6cQtjtyRW1Sdi0n962wZfmg=
-			</data>
-			<key>hash2</key>
-			<data>
-			LcQo2/XohbWxKDm8FpA1nZRIZpkRob3Ce1ZezSAMUjo=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/activityimages/mosdk_common_activity_close_actvity_btn_bg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			G6hEmwJr6WEOWIQ9GQ+owjVFy78=
-			</data>
-			<key>hash2</key>
-			<data>
-			ouY1aOQGt+O8gnLFzzTe9qEkZe0m9rLAs9qTMh3lYE0=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/activityimages/mosdk_common_activity_close_actvity_des_btn_bg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			G6hEmwJr6WEOWIQ9GQ+owjVFy78=
-			</data>
-			<key>hash2</key>
-			<data>
-			ouY1aOQGt+O8gnLFzzTe9qEkZe0m9rLAs9qTMh3lYE0=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/activityimages/mosdk_common_activity_show_actvity_des_btn_bg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OvKbUER7caANEdcNZU7q+7/HqiU=
-			</data>
-			<key>hash2</key>
-			<data>
-			RZ/e2DNAiCY2zRnjo/08bv+ib85p7JJvhXqa/9GzjpY=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CZq5dBQYPbAS2fyw6SyoA2sENmY=
-			</data>
-			<key>hash2</key>
-			<data>
-			5DagzDO0hPynJSPlzlcjU5ucLb+3a21MriOINunLxz4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/en.lproj/help.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			edWe1hd8MDRjRuewIKqvo+C6PNA=
-			</data>
-			<key>hash2</key>
-			<data>
-			X2XiJ17UvZg8RMdVWvyWA3jPsxieO7/iK3KYJF92a8A=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/floatwindow/fw_bg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EGp1Jkqpn7MpcNcsCBdo1otnkII=
-			</data>
-			<key>hash2</key>
-			<data>
-			9BnuDs5Mv4N0qdwkIOA3rSDQM2dyWpPTMop/00qo81M=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/floatwindow/fw_chuzhi_image.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5v+7Ji+1rUC6Q7vI4t4vcbh0/dw=
-			</data>
-			<key>hash2</key>
-			<data>
-			B+NsQSTRIm3zYAqqMklCxbZVNoIrLsYV0jnR01AqLus=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/floatwindow/fw_close_sv_bg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HkQDjSfeYUJkZ1JCyji3DTIqyMQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			WYz3IEzg0tEo2IVFMPZp5n6SmbCzOKkIOuLj7Ocpcm4=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/floatwindow/fw_facebook_image.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lF1L7oytHjOM8iI8nAKvVd9TgvI=
-			</data>
-			<key>hash2</key>
-			<data>
-			661bQwmk29UBRz0hGNByH2Q1FpH9PRTOLSIpReBNHvg=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/floatwindow/fw_gonggao_iamge.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8ejkuW+6WEAlMQ9Da9EdkodbKjM=
-			</data>
-			<key>hash2</key>
-			<data>
-			ok9BbrCN/um79fF/qo/egQXbAU1w4+lMnNsEQu6hzgg=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/floatwindow/fw_huodong_image.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			F72NUtAklKEFl1TCORzueNmJ+4U=
-			</data>
-			<key>hash2</key>
-			<data>
-			r55lCI2lI90A7D/0i121IHFqmP8EpX/vz3OCSVNF3Hc=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/floatwindow/fw_kefu_image.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6a4gCqClw+BHHEmW/MnIp0zGXsU=
-			</data>
-			<key>hash2</key>
-			<data>
-			BlQRP1qBme9NbLfmDfDF12VrJ0LmelOX5SYHUn1in7s=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/floatwindow/fw_user_center.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qr6d56QbLq5Lngj+DmnbIssd8xc=
-			</data>
-			<key>hash2</key>
-			<data>
-			uUjI6lH6HvsyW+3tlfhncv0Izyc+ByD0052+He9kBJc=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/add.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qNFcZMvSf0+sKE4k3kRORSAVYDA=
-			</data>
-			<key>hash2</key>
-			<data>
-			oJT+f0dZfh4JFonE31wludIJK6akliEZ0a7jAK9dPMk=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/app120.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5bP5JWNtXrniejZCm+xogqV+5vg=
-			</data>
-			<key>hash2</key>
-			<data>
-			R2hgQMzqzZ9V1EGaUL7YXGuj53jGUxwAPnUUddZRU68=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/back.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UFWHgrAMwlNCcnj5oKxRrxzAI5I=
-			</data>
-			<key>hash2</key>
-			<data>
-			3nXDRNQiBqMJHBM/taAr+DozPQCxPI2cYVhxBwAtbAw=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/close.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vHkD6WYssiKdSGv+Vk9niMbLFs8=
-			</data>
-			<key>hash2</key>
-			<data>
-			7F83eJuhkAfc8fC1c8RPJThntQuVxNzxQhecKEdShMo=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/comm.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MdsIZlgnmllDuVjpUh2Afab59eg=
-			</data>
-			<key>hash2</key>
-			<data>
-			K+mnDLgpTlL7dQR2U//W1xlCl4jhbN2L7ahd/HPt8Uk=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/facebook_like_reward_content_image.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			b6ryt7MkAez803+ZQxPVxuu5UFE=
-			</data>
-			<key>hash2</key>
-			<data>
-			GoatskBuXI8StZneZi9rEXLdcOJvNG2aYq4UKzP8g3Q=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_arrow.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tteCL7sVVMtFNSlzCH2uUdJ6NfY=
-			</data>
-			<key>hash2</key>
-			<data>
-			0Y8rJcQ3SZBlf32XAfkAAOz6FvpVfxQyQ3Ft9BQuW7Q=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_close.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ufd9yuJUuwv2QmitgCs2jT783GM=
-			</data>
-			<key>hash2</key>
-			<data>
-			wGAMdWVotQeGpIBil2mQWDxlq1QRAm4P2O7gWUzY5Hk=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_close2.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fVn5bfdylwXeViSjUsvSj8Lfaa4=
-			</data>
-			<key>hash2</key>
-			<data>
-			8V+ven+dukzJAxxnYfLDufY4RVlsG55G/MK7gYBPHbc=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_gress.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PcM4uYJnsolaTD3K5F4MnULhg2Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			uXtBbG/GTKYfUG2RDenPGz0Q866oDLdZCtJz1f0Lxz8=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_invite.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3N2iMuxXUkKWJ9LVEhpfGsqN7Oo=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZZVzM2syogcDtk52DsUkFZl1PKkyeWcmvJ/s5nHv8tY=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_invite_click.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qjbpzePxlV6lGAEkcZSAb1y+h00=
-			</data>
-			<key>hash2</key>
-			<data>
-			9sEof1GJ5Gnob5xqZpEiuOwLMnV+Mp1pnA4lAWLWHgw=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_invite_normal.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o15TzDa80fpnzMXHzUOuvjkZk1k=
-			</data>
-			<key>hash2</key>
-			<data>
-			DyfpljzN+E01qtQURMEmaZPHeZW9e28z1UezHP3RRgM=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_like_click.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CXIGN5B/a0yBp/BhrdHaRZR9Bo0=
-			</data>
-			<key>hash2</key>
-			<data>
-			IkEVKqMD5AhI0lq+EozauxkKA9MRT3BhSxWlB9blnxk=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_like_normal.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RHcE9wO1HfCb/nN6BISow7sMOuU=
-			</data>
-			<key>hash2</key>
-			<data>
-			K6cwuWCO7gYlCzAdufvaiDBpsKahu1CSsZFiPNyjG3Q=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_new.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fniXvKOAB0Ai+nYNKq8dshoxtzo=
-			</data>
-			<key>hash2</key>
-			<data>
-			jp+n2b6QF/+2OtA+Ef2J+tYc4xGrxuoVBGvfI5WLllo=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_share.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SsuYJGhgOBupvbzEijbxurzaBTI=
-			</data>
-			<key>hash2</key>
-			<data>
-			lFYRsQF1LzQsdK841RXVwIAlFR+mVs0ecDx+jE4om4I=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_share_click.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			O9EmILlcM4f7+1t1cUzP0Xh5ep4=
-			</data>
-			<key>hash2</key>
-			<data>
-			L16PasJH1IWJB+aTl4Qm/KYGYR39x6WIhoJptJ7hfa0=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_button_share_normal.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ht0kIkiHXxFADTMEHoMQFIn06pw=
-			</data>
-			<key>hash2</key>
-			<data>
-			V4uu8a2brFXMm923YpVHa6be0q9YoGkQAGDQDOE2Kno=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_des_frame.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YbLOd2Jx8xdotU19SbLLaYmPPUU=
-			</data>
-			<key>hash2</key>
-			<data>
-			VEcnVNQfOox3/elT4+xyvXG2wzyAZny/bnPu0G3PwIM=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_120.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			63C2ihuYuiZjd8kMX/5oVVMo7kM=
-			</data>
-			<key>hash2</key>
-			<data>
-			50vjlcTifg/DTJbA1RL5AIkYqR3umQ4iFBqITXS/wl0=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_48.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ATWr6E0aIOcfA67jjdgt9hdM7vs=
-			</data>
-			<key>hash2</key>
-			<data>
-			ThxJLbQTGzLXB+tjqrSxTgF2mQOAee/XUTkPPDcPY10=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_96.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6Ys1KTXx3LoEweTFRqrly8lNzQo=
-			</data>
-			<key>hash2</key>
-			<data>
-			QxRlNlvc5VXr6Ws+0/LzbyiF/3s8Q2B2YAUJGC0Qk+o=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_invite.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LVr5VefvizZognRTJ+Y97+op1wQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			zMDms4LbSAf8lMy4TaCWQnJ1gkmxbAoYoLyIFwqUDtk=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_like.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bKYXoOAVdVAz+zyWBLkzNzrNB3k=
-			</data>
-			<key>hash2</key>
-			<data>
-			Za+hZeos88D/0Fs+Dubr6SSblJ5gwtQ51RLUaqHMCwU=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_reach.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZLZJIDt1QoG8aGeyLJwra9Aq26c=
-			</data>
-			<key>hash2</key>
-			<data>
-			b/KrJDGFYVZYlIwpLL7C7jSbL7SVzui8cZ2TszwhXr8=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_icon_unreach.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X+9YaqFz/efq11w0b4NZLClDxsI=
-			</data>
-			<key>hash2</key>
-			<data>
-			0uDZrfEAlSR6Og89AURHpSC4o/7KZk8AzJOvKjX3yRA=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_invite_progress.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AiAx01TxVOroqxtjpmaCSdV7sPo=
-			</data>
-			<key>hash2</key>
-			<data>
-			X8qtqngrnYSkKDExLHpfSMyGqgssfI0p+Wim8YDBCac=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_invite_progress_bg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PcM4uYJnsolaTD3K5F4MnULhg2Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			uXtBbG/GTKYfUG2RDenPGz0Q866oDLdZCtJz1f0Lxz8=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook/mosdk_facebook_share_bg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hC0Zp/Wa8bmcDlYq5RZ2sPxW6NM=
-			</data>
-			<key>hash2</key>
-			<data>
-			cupbJDTLIcSdfk9dWt2u8+bZ3hE5BI44hCoPiM4r3l4=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/facebook_login.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			woPXD8wMGEbs5luNkKYPQ7UjkI4=
-			</data>
-			<key>hash2</key>
-			<data>
-			4wHfDpHYbwPrzK1icuZZDvBGsP35rQ590xVpuBjff6I=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/fb120.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			63C2ihuYuiZjd8kMX/5oVVMo7kM=
-			</data>
-			<key>hash2</key>
-			<data>
-			50vjlcTifg/DTJbA1RL5AIkYqR3umQ4iFBqITXS/wl0=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/fb48.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ATWr6E0aIOcfA67jjdgt9hdM7vs=
-			</data>
-			<key>hash2</key>
-			<data>
-			ThxJLbQTGzLXB+tjqrSxTgF2mQOAee/XUTkPPDcPY10=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/gamecenter_login.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w1Hjq03PwiaMZNzRYuWW6lskAKg=
-			</data>
-			<key>hash2</key>
-			<data>
-			VS1nCUS73qSMBqiXDuWvQKVtVuFE9UF4hkUxVUw8Ouw=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/google_login.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TLLR7uBBmpWfhl5I0A1W9VemCEA=
-			</data>
-			<key>hash2</key>
-			<data>
-			5Wh2wnYh++MMbvWLyZRFGnjrEYQ5d6lm2vqM61J4808=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/gt1.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w44ymFc7J26qHnXYnMPOW/BnZ4A=
-			</data>
-			<key>hash2</key>
-			<data>
-			HI5x1dcedjKjOlCGa7o7Ln0iKVcLQyD5z/pR9lVzH6k=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/gt2.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			N1dgTV9+jwQAbi+/TnSlz/j4HeM=
-			</data>
-			<key>hash2</key>
-			<data>
-			wTUB3H0Be1AmtVBiZbBZfailJLcsnLsjF9u4IxpYFEA=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/guest_login.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Wl8OaISUDdEoCAiuYzqocc96Liw=
-			</data>
-			<key>hash2</key>
-			<data>
-			IsHIPfp6ijkbsiPpB4PudPdwiEzorB7Psy7Z4JqK7t0=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/loading_01.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wkmN5xabyvrnHndcJ4wPINv4/HE=
-			</data>
-			<key>hash2</key>
-			<data>
-			/vAh6KLZ905mzxzz4Bdddzv+Up1COVF6zIeTmLty0es=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/loading_02.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			T/wxwLiiFrDtoZW0ihbKh3byluY=
-			</data>
-			<key>hash2</key>
-			<data>
-			KjcxNlzT4Y6T1GvV4Wl7+h+mIvcv1gZRTzaMthN1UDQ=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/loading_03.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KX3Fxymkw55MNgtXF8whpFD+QMY=
-			</data>
-			<key>hash2</key>
-			<data>
-			C9ZD9bx/RB+uNMxcHMxxtkaA865aOXSyWNxjtB8XN9g=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/loading_04.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Y15G5vdW5XIQSdajih1vhiQw3C8=
-			</data>
-			<key>hash2</key>
-			<data>
-			9F7diIiOz6ObXsUC/ysh/o7k1BBLFt3jcYKIuik2xXk=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/loading_05.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VcGu3hso2Lr2zx+5cKmHw/lCS4c=
-			</data>
-			<key>hash2</key>
-			<data>
-			lCDYCbEHsa8hKaKJxf1X+923VnwUtuAmcjH3jN0RyCI=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/loading_06.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jaZZwTd/fDlRyl6rQrOGwW7PbzE=
-			</data>
-			<key>hash2</key>
-			<data>
-			l1yihlWogOypVDxqZaJDL7rPLK/9+uXTAG2wPimHCYg=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/loading_07.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gFwbroo8OoJFJ5Fp8tQghB3iUYk=
-			</data>
-			<key>hash2</key>
-			<data>
-			FQBEWA8pNJJjkH1oOUV+82h/AEy20wahzC+Lb5eJb24=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/loading_08.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LqSDGdDWzt9hzF4rw8zkgl0Hujo=
-			</data>
-			<key>hash2</key>
-			<data>
-			4sI9kYSfzy0ew9RBjhiJzj7JPOaLrATnwjEhXHHNf4Q=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/logo120.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			m2kbWv1y6LX4kes9fk1PcL2IF40=
-			</data>
-			<key>hash2</key>
-			<data>
-			AIP0oakVAaLU/IUDKVwJ6CX/InqjNeELqrt0HHRRN3U=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/logo120g.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			m2kbWv1y6LX4kes9fk1PcL2IF40=
-			</data>
-			<key>hash2</key>
-			<data>
-			AIP0oakVAaLU/IUDKVwJ6CX/InqjNeELqrt0HHRRN3U=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/logo48.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yBPXdD6B6ZT7IAFDJGqZt+YVZ2c=
-			</data>
-			<key>hash2</key>
-			<data>
-			eBykbmmEnuQ+L2yB3BZOiPFgladUyJEJ9dLMMlCmzH0=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/logo48g.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yBPXdD6B6ZT7IAFDJGqZt+YVZ2c=
-			</data>
-			<key>hash2</key>
-			<data>
-			eBykbmmEnuQ+L2yB3BZOiPFgladUyJEJ9dLMMlCmzH0=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/images/logo56.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ce1TikyPQ0LXInF6o69nyuCLY/8=
-			</data>
-			<key>hash2</key>
-			<data>
-			gkjnlCfil0rAZpIV2+D2mc1kQqVDwJgFaeEezYSLtNM=
-			</data>
-		</dict>
-		<key>MOSDK.bundle/ja-JP.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0pgJpCmab/QrAGZOz3vUxNojuWI=
-			</data>
-			<key>hash2</key>
-			<data>
-			AMJbIOYS/BAS+9E671GNK+y9I+JXPY2IKd3kVi5uPa0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/ja-JP.lproj/help.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lsjvyXcq8gE5E5SZK/9PW/23Aso=
-			</data>
-			<key>hash2</key>
-			<data>
-			LSiW0EsqX/ghEJh3OTn0Wn6xuEWDhJiln7YckHpfy84=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/ko-KR.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W3aB/yr3h5zN0s4OuC/HM7/7to0=
-			</data>
-			<key>hash2</key>
-			<data>
-			tNIugwOYj6bysUQoZ8ICjcquuA1wBJLnu83hT9/XfVY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/ko-KR.lproj/help.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			edWe1hd8MDRjRuewIKqvo+C6PNA=
-			</data>
-			<key>hash2</key>
-			<data>
-			X2XiJ17UvZg8RMdVWvyWA3jPsxieO7/iK3KYJF92a8A=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/zh-Hans.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WU2vf0JyIadnMq3llj8M2PRTHGo=
-			</data>
-			<key>hash2</key>
-			<data>
-			giwVW8E0o+8EXNP/U6oIC8m2QILP7ldr2xROKAuMuFQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/zh-Hans.lproj/help.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			edWe1hd8MDRjRuewIKqvo+C6PNA=
-			</data>
-			<key>hash2</key>
-			<data>
-			X2XiJ17UvZg8RMdVWvyWA3jPsxieO7/iK3KYJF92a8A=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/zh-Hant.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fE07KGzGlK+dTcU7PublGRd9RsA=
-			</data>
-			<key>hash2</key>
-			<data>
-			ld21qPrTaEoGMbTiD1h5pcc443vCAX7Wnc/R4a2rKKg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MOSDK.bundle/zh-Hant.lproj/help.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			edWe1hd8MDRjRuewIKqvo+C6PNA=
-			</data>
-			<key>hash2</key>
-			<data>
-			X2XiJ17UvZg8RMdVWvyWA3jPsxieO7/iK3KYJF92a8A=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>MOSDK.storyboardc/6ew-Ii-bjw-view-kEV-PB-Ti8.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W2q76lfXPhqwUoNO3mpo+j8yZHs=
+			lT9USfJiuCdImvXrrx63/mtkEhg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hWo3th+CZtOYvIldktzUlEf+5oedCE9nFG/x/3AD+OE=
+			gYS7Ep8rpnN4B7fLMMMgT7Mrv6nNleuFNeo7ddc18kk=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/6ew-Ii-bjw-view-kEV-PB-Ti8.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q96JqWhMvY57vrGecljSYnnR7jc=
+			snHpZHhilmJHePJaeE2855twLB4=
 			</data>
 			<key>hash2</key>
 			<data>
-			7HUI5KEIAo+P8zrUzlOSzXObzqMeZtnZxNHWBi7YAAQ=
+			QgAmuN60GG+Eqxf2qZyLP7AASU+rrV6Umd9OwptV9Jo=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/CommentaryActivitiesViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kRI3Y3lHF5+ncn42eDXPHecX0tc=
+			kRz+4SrNHMcXJO4wTsP5rta0Hz8=
 			</data>
 			<key>hash2</key>
 			<data>
-			P7wzNfMc6pTq5qEnnpQgWCcdM/qtgeyFM6S8k0L3EAk=
+			yVtWll8X5/wJ0rNRvnWY5QIGH2SIf8raODPQTKZf1lY=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/CommentaryActivitiesViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IZ0uY8HzmxBOajjQzMXB6JAtfSw=
+			ePbrhjI3o4tXUu3H5i01DVncERY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/YiXrLaB1I2lb0bdaJrsUyC1qLBMjQZDNcueyG2ywI4=
+			wX0Y0PcQvPrrzEud2zY9pkMOCb6YSMHzG0vTZMUuP3E=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLAccountBindStyleViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			reYZfBimDqTIDMzbomBz8aBS5rE=
+			</data>
+			<key>hash2</key>
+			<data>
+			jpsLGNRaslfLhtHWlPZNvDGb9XmViLFfkRll0ws2754=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLAccountBindStyleViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LuZRQ4E6A/v0TPeyiET+2/oAY8g=
+			</data>
+			<key>hash2</key>
+			<data>
+			nPdo1fAR5Gt1pelEVTg4MsCtK0WqlUzwv04dnDldNsg=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLAccountBindViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FOuHoR2FyZvvP9O1x+OXXk+DQMY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Wmiroj1VS/CoijkA0szS6mTVYPYnHYoHd5AyV5Bo+3c=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLAccountBindViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+C7zarojgbwbV5whZ0Zx+iJH5FI=
+			</data>
+			<key>hash2</key>
+			<data>
+			zMQJ3c5n2LJ53S80/FGbj/AC1ySZR5iDsusfyF5fSAo=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLAccountManagerViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			puG9ZqP7lB41WS2OY2nBz9UUFqA=
+			</data>
+			<key>hash2</key>
+			<data>
+			b6++sZAztMfjFaip4rNCoFbnWWQjoLcZwJl2x5ST1LU=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLAccountManagerViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IpUpaAyDwOCRt+016Bl0m3sgM3Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			aF4HJs1y3JH88ML6zYn/GrOlobB8G199eCxecSFwMjI=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/DLActivityModel1ViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			scTEeqV3zCF6xmcDbWK798dshVs=
+			N7mbMlGde+4WE3AKUEN0bXXaUsk=
 			</data>
 			<key>hash2</key>
 			<data>
-			r2nS/t12NO3OV5CSA2hx8HGVw/1+xjxKWL/PVD4icw8=
+			YxOxIgK66jjKP6fZlMHALfFJblLfeiuRiZT07lPn9D8=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/DLActivityModel1ViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ANqaTYaIUkBJGzuzjSVy7o8B/aE=
+			QFmTNFTiAcJn9WRfEthl2wMCL0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gaizws/ncGqqVvYXW3iCYSXch4q5HaSBqz6coJszUTs=
+			ti5bkJ7r6juYbjYeKRtOf9QZfHY7rMK4NAoCu3a3/L8=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/DLAnnouncementViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mDX2Tu6f51qJ5r808Ge/d5dkqgo=
+			weJ46pxvPnHeOOEOunPu7iN2YOQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			D9NWonJFRyldZyUWvHMr2tp1BUOlNCajGM5UPZZkrls=
+			Sxg/UAwFJ1XOgJRlk5HhZksjdx9hCXaZDMnr8T1gG10=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/DLAnnouncementViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r6LijqTp5T9rjNMofEaRMVu6mQQ=
+			SFwUvEbS3VC8X5LgNBVEPJj573k=
 			</data>
 			<key>hash2</key>
 			<data>
-			ICPvLJM6x2F38q+9TaQY+lCH3do2cjqwIK89Z4ef41g=
+			OYUcrtoPlsfbcsZidTAOiC2pEPqORskaivgPNXRDvoY=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLBindViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pQlfoApwYHNTlW+5usJxivRDAO4=
+			</data>
+			<key>hash2</key>
+			<data>
+			okkEz2GjK6dxmaiF3Q8WiYX0eTJ02WWmMCsIT9ueHbs=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLBindViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			33V3en1YbWBWnAr2E0YT+GoLV0c=
+			</data>
+			<key>hash2</key>
+			<data>
+			0t1ScJNcegNJyTtXk755sv6eD4kxYTCUJ/EUU/AKrXA=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLLoginViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Nh9Dbcs2YPgeE0LcKVD4a2L2/LI=
+			</data>
+			<key>hash2</key>
+			<data>
+			bkCsumIRctJ4dbkdtajoi54k3zJCfQauod7f1w6y3hg=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLLoginViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HY7US+q3gqFuWH/cCEcQFpAo4oE=
+			</data>
+			<key>hash2</key>
+			<data>
+			uYcQpJTm0ZXlbyGhz/Qyob320CvoCV+COqADAAssLyg=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLRegisterViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5kSkN7sZ9Mm+IT58X/0sA0ngMik=
+			</data>
+			<key>hash2</key>
+			<data>
+			J2PTR2/l2ma4aW79CWuUJvH8K616ZI8VKGBaRlHvG+Q=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLRegisterViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WjbcX0FtklRztpOFXyhaRAtLLBE=
+			</data>
+			<key>hash2</key>
+			<data>
+			NBISv0iXwIdpn5j9+hg9FgxWfRJO6/pyHyGTX0k6Tmo=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLResetPassWordViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U2ykMjIHHfcVL+reVlcTLm8W8SQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			WwhSXUfrTpmwaZhF4jHer2aOOjC5JLv6SZZW6/3YPmI=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLResetPassWordViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CuwqCDD5lVDrgi9mJDPh38Biki8=
+			</data>
+			<key>hash2</key>
+			<data>
+			lsuhdCfCtQe4rvBEZoC8IAUrs7lfcmsErGo2qqhnvk8=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/DLSmallGameViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zp/06HBCVb6BSJvc/crXYmBSjZ8=
+			Q1ao2r33JFIQeSHhCub4hBU0yq4=
 			</data>
 			<key>hash2</key>
 			<data>
-			mS3c9QrQiqpil/RtfjE4lw54PxkvVuhO4a/khu5VLbQ=
+			96HQtBIrp451ukyqjjwPz5GyRn1X2XKnjRd8yW9J0gM=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/DLSmallGameViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			paRhMCepLOy4au21HmSATPX3L4U=
+			9oI9LGxwRGSCk5PM9e/kah8g83w=
 			</data>
 			<key>hash2</key>
 			<data>
-			NlEUbTvbvOR7Ii5TTlNR8r1NjYblj86n9OYher7hS34=
+			Qmq/P2rm1bGyJoAnR0RamfCJyhOGOiMKYZ5LzFAHL1o=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLSwitchAccountViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zn9UxiHKsmMPjw08qwhEeCPde7o=
+			</data>
+			<key>hash2</key>
+			<data>
+			TBbpzSMbTa9ClnJTrs3HuGDrrnfpXJ/gKgYQsPttwTY=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLSwitchAccountViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SPt/CLQgIyblOiaz1CqgtHWBSU8=
+			</data>
+			<key>hash2</key>
+			<data>
+			g63IKJaw/qFlH4Oa91kxaYg1wS1FbepvooZUuo5UfF0=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLVerificationCodeViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			11jooynnGdCNKsqwIWBH28tykHg=
+			</data>
+			<key>hash2</key>
+			<data>
+			KK6Ai+aKTDAkditpUP9Znr4PJnywvgcW1i3b7YrhCmw=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/DLVerificationCodeViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OLG0YR+eHJXCSWjhwtDcBRnkML0=
+			</data>
+			<key>hash2</key>
+			<data>
+			VBs9Iux8UPxMoG+gbLQyHH0Q7tqzWrIOgXPQT7BZsDE=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/Dd5-Wv-4Uy-view-ejf-ax-1e1.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LUNcE7aj9PRIg4nCOL+8i2JJ+cs=
+			MD77Cd9QKhxdzUqmmeB0i/ht9/I=
 			</data>
 			<key>hash2</key>
 			<data>
-			qMH07WSz817UpJFTlVdTl8gUO5ZkgQ8VRMDnUGWTSVw=
+			BL3p4IYbRPm0xm9DnmuDSAvakWzuLDnYKGGXFQwplLg=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/Dd5-Wv-4Uy-view-ejf-ax-1e1.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aMiHQlzpNaxYCK8GEHTr9m7yBs0=
+			3nbegM7v6ICOq4Wbcb76/cRCsjA=
 			</data>
 			<key>hash2</key>
 			<data>
-			EMuzwXXXu1Bn4T4RjGQ7wrOMQjH3i2ltnzmI9c7dlog=
+			f8oA69YiCmknxITStnsgwit8J3b6JH3z1NyJ4yxD4lM=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/FBViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NFRnH8qCu0RDqrcOmqqN8YztjBc=
+			op0LFs74Qq4xu7GDVXeE+2EuUPw=
 			</data>
 			<key>hash2</key>
 			<data>
-			/EEP8W0OGfmehQmMTWtRmd/iWUKhDuLuDnTjVP3Lybk=
+			7LAatVKjBX6Ph3bdDY7XTO3LxuwJg+oR9EhRzPy+KRo=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/FBViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bFZgp+L4wnZm3fJogOch+AqPoI8=
+			8glf/faGc4q4EqFjxqgs1t/C4kM=
 			</data>
 			<key>hash2</key>
 			<data>
-			k+wPveAoHTtAGK1aH32j5VLEPGyJspTpwGiV98lSFF4=
+			qQcM4BwnCBTf9wislLlhlA3t++VK2F8NY2MfSEqnXxA=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/HWo-Sd-vzU-view-DPV-ut-O40.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NYe8SwxLXn2LW8y3+DNT1GmK8aA=
+			</data>
+			<key>hash2</key>
+			<data>
+			wbD39FbEBz7GDP9jABb6dP2B9r38VUBC26w93C97RmQ=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/HWo-Sd-vzU-view-DPV-ut-O40.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jc8yni2JaQvwNzvOr15SV0w5l9k=
+			</data>
+			<key>hash2</key>
+			<data>
+			3UYBBLIRuYcoJbPm2UoHYoxRGA55UYI6ty//oYDCW/8=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nfDg+yxdMTt/O/6y9x0EAqCF99w=
+			PEnQWbEDjysWxOXG2wfuG/lG7EM=
 			</data>
 			<key>hash2</key>
 			<data>
-			HZp3JQtPiSdmHQZA9IvNuHMAopKfEkh5EIFcPSwxNvA=
+			2rl6rXAnIxevFu9fXYJXZFSP7Y+LKhkAWAlt53j+J1g=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/LoadingVC.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N2/91KHkQvS6sBERgTvANkY8kjw=
+			</data>
+			<key>hash2</key>
+			<data>
+			s6juFSizOCi7NV7e3B3l4pXAXUeHVxs1sjzLW64Pxsg=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/LoadingVC.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HOOfTrBPSoUuW/sy6kc32rfYQxw=
+			</data>
+			<key>hash2</key>
+			<data>
+			TyWJEPCFicUqwKlg7PGHtQ/bE7ycSixcXNkJneAHTeI=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/P6S-If-wdY-view-ebB-C0-LYc.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s+ebTi/foHV7XRJcx4OVzhSDVHY=
+			juSmhvgETJUOUBsJ8jvi60jTX+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			FwASUm5cjH06XewapOUQx/A/yU0cCEvlE/5DDYAltnA=
+			ssPJp4elD3iSrkxbxFBmjEegj1agv4qJgfFwNKE3f9A=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/P6S-If-wdY-view-ebB-C0-LYc.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k++SDVL8MeRrqFBQMbU4MBMVdAE=
+			N2HR/fmJC2I1nsUG92I1OzG2ZPg=
 			</data>
 			<key>hash2</key>
 			<data>
-			DCQBqCjzaUEgVZhgJsXH5exxd4Zk0sbBkJpz97sSFE4=
+			PXVvuOsTF9xdGMY9xDintFTUc5BDBsl8F+5g3BlQ/uQ=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/Qam-o8-7W7-view-rSu-4d-VpM.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JnRXvjwWYqLfcaoL4q29LxwhNGg=
+			</data>
+			<key>hash2</key>
+			<data>
+			1yNEyGqLFRo97uazc1EBiihiUgoePFHp1x1uCdt1Mu4=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/Qam-o8-7W7-view-rSu-4d-VpM.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7IDdOzOYBy/UPqW+B26zpczHvhw=
+			</data>
+			<key>hash2</key>
+			<data>
+			woiOYhXEbDo30Mp/ZxcO8f0Sk4WfY8AlLkY0ybni1CE=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/SPC-t0-7f3-view-sdG-b1-Ioi.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ItCk9g/ZyNeiCGWrhxnKGfNcNag=
+			</data>
+			<key>hash2</key>
+			<data>
+			iRw+qWnmlavcVR2WTklOJ4tWNDcgLkIBYXnDTUgCntk=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/SPC-t0-7f3-view-sdG-b1-Ioi.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BNGJD1/C0OStSlfVQoHCxzGThuA=
+			</data>
+			<key>hash2</key>
+			<data>
+			PsGzHNY8bhrszILLXOQ4lDDcaBQENqe70eb9abokJNo=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/StoredValueViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YoglhMMGnuQbePE/N4HjMp7edTY=
+			Rpvo+qfOsOgxo657MHjh0JKQ0Sk=
 			</data>
 			<key>hash2</key>
 			<data>
-			gh6q3UzvS4EQLaJf9+9CBfguRmJ+jJqoSUU1J78B/7U=
+			U832mQ8O7zhElE9WLz22aNLQHV/9hAXPiBK0AFaudTk=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/StoredValueViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ofZTjFt4NJ5Mu8mB36OYc9XQogk=
+			cyixScSsmWNJz/tjUh3iBtPmzeE=
 			</data>
 			<key>hash2</key>
 			<data>
-			pb/vj2BdfkN0lQ/48WFKWW8lR1hTBMt9cPjHNsmcqeM=
+			qVW4GR15tGp92UpM6qAoCZQx/FscoOXGt41Z8Y1UXW0=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/TZB-OF-7bE-view-2sf-K2-9FH.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AAQjdjZRd1/o+MBao3grR1Ff6JI=
+			</data>
+			<key>hash2</key>
+			<data>
+			qvTmc4eaZaTIu81brwV2uhvl+Ma4W8VaQCwP1QpRBUY=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/TZB-OF-7bE-view-2sf-K2-9FH.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BqSeUXVs8xnC4BHxnO/+Ga+xF00=
+			</data>
+			<key>hash2</key>
+			<data>
+			tQ2LlFIIgs2GCf8Lp0Nqy8SL8wMQmqZkmBxINzkR3SE=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/Yxe-QH-7tz-view-fgW-Pd-sLo.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lqrW8KYA9khzf6eSykb8id8rvLw=
+			vrdxxgiMcIA85nb93KIDHdZr54c=
 			</data>
 			<key>hash2</key>
 			<data>
-			m2GbzIwm7cpiYTGlHsJTXiRhwAkBXZq73ZfxDmeRHXM=
+			jqvtomVeK+qwz1/lXDC7CLQvH0gtPbJahbIw5C14+1c=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/Yxe-QH-7tz-view-fgW-Pd-sLo.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K82Rz+E2hhpRKGp1dY8XE34X0Ms=
+			tgyUdWZSQQybsxNb+qUWQ5oQH40=
 			</data>
 			<key>hash2</key>
 			<data>
-			9RThCa+Tjc3Rt83nW6E02+uIDju7W3vCrUnvF/SU9WM=
+			qJTaA7xnhub+eLAS9ou+RjFUI5FXWE/aVvNq7QcRoKI=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/dyL-9N-gYR-view-b93-p3-cT8.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GlQZ4nr6xyFyQwZiOECvriZNAlc=
+			ZA5E5K1MuUWY2y+fw0aw2TRv6Do=
 			</data>
 			<key>hash2</key>
 			<data>
-			3J9QtyzO5kyfdWSdBgpzQT8yNhsalxiEpKOw824ZjzQ=
+			Ld60ZdqPjoOCFZAWAEkNIjzlq+jm43hf/VbFaPe1Two=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/dyL-9N-gYR-view-b93-p3-cT8.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DoWkycax9hX1SwWLvexKCUtSyNo=
+			LUuBOIjL7W+u/tqLF4dkeQf7F+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wl0K1U0k7RCxC9YD50JOzTNjRhV/7eV/hODDUY+hrvE=
+			DuNvWr61q1pUqdjMpaByR/ZL62ElS/iBCgtHWVmzqg8=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/ege-fZ-Auy-view-JH6-uJ-nnk.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Iyy1D6TVjQXNuGGgZfIvOgLFd+0=
+			</data>
+			<key>hash2</key>
+			<data>
+			x49+Q2Q1ej/t4dpHKtGIEe3KKoJl+DKBcNNDm2OIRos=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/ege-fZ-Auy-view-JH6-uJ-nnk.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6l+r9S7D+dn6aHFvssbZW+58llY=
+			</data>
+			<key>hash2</key>
+			<data>
+			W8EqRDe3PFdhmiYKpsT6frLHPG8Iha0GbIkbuAF0wxo=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/mf9-By-SlE-view-ci3-ss-cqU.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BYyd6Nd4vekX45hS9womkr1hsqI=
+			</data>
+			<key>hash2</key>
+			<data>
+			iFAR5THgkUYUTEVyxDnJB7zgjjeTdMc3KfNdC/Yw7lA=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/mf9-By-SlE-view-ci3-ss-cqU.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			us8XNuDb1azs/KJwGvGzzXyK3i0=
+			</data>
+			<key>hash2</key>
+			<data>
+			VZavQxcZyqy8I68vu78QZ3DOrjjIzlcRq5VrfjH8z7U=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/ndd-30-l4G-view-aS5-1q-Mur.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GYxoNCxdZciI49yf+rZ7f0qRHUU=
+			fcdWHhHBCi49jEIVS9ka43IcoL8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZTnZGZwXzgmRzkzbhcd68ypPmq6Iw016sjfPmeF6zB0=
+			PO5RC1Ky0CSU8aK7Ja3CjlBERYsgu+iHvQuy35pONts=
 			</data>
 		</dict>
 		<key>MOSDK.storyboardc/ndd-30-l4G-view-aS5-1q-Mur.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xRhX2eQBW0kxzHTSHw8KQo+xyBM=
+			NhuqxR4T3pFMi6u9DXMhZiKoWhA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jE722vJVT5pQuYyatWNHYQPexWNhWg1ixyFQA+M0OYk=
+			lni1dI5Vy4J0+ICDQO1pDtKwGGbrMC9UMaa7krxasOE=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/rbh-EF-oDb-view-hCU-8u-RZk.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rtjByIJVkbl2/6QfD0d4FSoHdkY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Zr/nh4okT9HAvoLSrbJ0DRfVtnU2RbunahWJKQMWAN4=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/rbh-EF-oDb-view-hCU-8u-RZk.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4evcqLSyuGppfY6Ud5SbkVZTLz8=
+			</data>
+			<key>hash2</key>
+			<data>
+			MvTwwI62+FhXOivr+zX8JnBON4QNSGpNCcBTaRt0jv0=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/xoN-Kb-gVB-view-FQ2-6v-uRj.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UsWOKrk7M4tWtzl9Y32ujH32EZE=
+			</data>
+			<key>hash2</key>
+			<data>
+			glNTZfYL6LDUA4t24aOZp+XHUTJ/Uwe2T1BZronEQM8=
+			</data>
+		</dict>
+		<key>MOSDK.storyboardc/xoN-Kb-gVB-view-FQ2-6v-uRj.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qmReanr7P60yQT8cbmO54bw3Xps=
+			</data>
+			<key>hash2</key>
+			<data>
+			1d/SegPlBoZBhPTP18ScTVZR8zvG3UMfdwkcCDNposg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2644,39 +1148,28 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ozKwDkDBPPpdv+q2yRjvMxYkIO0=
+			fUC/aA1lL00uPzkS+Q3yXbUH06M=
 			</data>
 			<key>hash2</key>
 			<data>
-			URgFQNz0GkRL3dTBWI3QPy8tlNPPzrlXcgJ5A4H/nKc=
+			A9CvDkhg/UuYoCV6BQfd4Virp6NvNF5/2k4V+90CFos=
 			</data>
 		</dict>
 		<key>func.list</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jl18xd6Nm/rfZc6dgU8BBm80TpE=
+			oUsQlLws3VfIz3hM3CK8p/LyqVg=
 			</data>
 			<key>hash2</key>
 			<data>
-			pJoA2F9KMkO7gU82Enldicc9Uxl4mpDhuP4Uq6dXEyE=
-			</data>
-		</dict>
-		<key>华康新综艺体.TTC</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Eqyl9BRn7+1xw4jbdPkKGvbX6y4=
-			</data>
-			<key>hash2</key>
-			<data>
-			aJlxvRbDjXd5cdWa48WR1SuXhHr1fp+YdApX2wHGWcs=
+			B4mmFHuVmrizjYGfs+PbKqs5w/cU4UCE30f0xXH61hU=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -2707,24 +1200,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -2760,13 +1241,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

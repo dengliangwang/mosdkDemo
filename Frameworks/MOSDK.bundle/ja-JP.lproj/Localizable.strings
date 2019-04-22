@@ -14,7 +14,9 @@
 "t_btn_guest"       = "ゲストで";
 "t_btn_join"        = "新規作成画面へ";
 "t_btn_fb"          = "Facebookアカウント登録";
-
+"t_btn_gc"="GameCenterアカウント登録";
+"t_btn_gl"="Googleアカウント登録";
+"t_btn_use_other_account_login"="Use Other Account";
 "tip_in_account"    = "あなたのアカウント";
 "tip_in_pwd"        = "あなたのパスワード";
 
@@ -23,7 +25,7 @@
 "t_account_join"        = "アカウント新規作成";
 "t_btn_join_c"          = "作成";
 "t_btn_reset"           = "リセット";
-"tip_in_account_new"    = "ニックネーム：（6～16文字以内、数字とアルファベット使用可能）";
+"tip_in_account_new"    = "6~16 letters&nums";
 "tip_in_pwd1"           = "パスワードを入力";
 "tip_in_pwd2"           = "もう一度パスワードを入力";
 "tip_in_email"          = "あなたのメールアドレス";
@@ -43,6 +45,8 @@
 "r_network_error"   = "ネットワークエラー";
 "r_data_error"      = "データエラー";
 "r_internal_error"  = "内部エラー";
+"r_invalid_account_error"="Illegal account, account type error";
+"r_invalid_gamecenter_status_error"="Gamecenter login failed. Please activate your Gamecenter on your device.";
 
 "r_acc_empty"           = "ニックネームを入力";
 "r_pwd_empty"           = "あなたのパスワード";
@@ -62,7 +66,7 @@
 "t_btn_complete"        = "完成";
 "t_btn_yes"             = "はい";
 "t_btn_no"              = "いいえ";
-"t_btn_google"          = "Google Play";
+
 
 "t_account_sel"         = "アカウント選択";
 "t_account_mo"          = "アカウント";
@@ -99,3 +103,48 @@
 "r_bind_google_success"     = "Google アカウント連携成功";
 "r_bind_google_failed"      = "Google アカウント連携失敗";
 "facebook_like_reward_btn_title" = "親指";
+"r_account_manager_switch_acount_btn_title"="切换账号";
+"r_account_manager_bind_acount_title"="绑定账号";
+"r_account_manager_bind_acount_btn_title"="绑定账号";
+"r_account_manager_unable_bind_acount_tip"="第三方账号已经被绑定。";
+"r_account_manager_bind_gamecenter_btn_title"="GameCenter绑定";
+"r_account_manager_bind_gamecenter_tip_for_bind_falure"="GameCenter绑定失败，建议您使用账号密码绑定";
+"r_account_manager_bind_mo_acount_btn_title"="账号密码绑定";
+"r_switch_account_page_title"="切换账号";
+"r_bind_account_and_pw_page_get_quick_account"="Random Account";
+"r_tip_for_bind_success"="Bind Successfully";
+//初始化话失败提示文字
+"mosdk_tip_for_init_failure"="Internet error, please restart the game and try agin";
+
+// 服务器code码对应提示
+"10300"="Cannot Invite More Than 100 People At Once";
+"20200"="Account Cannot Be Empty";
+"20201"="Password Cannot Be Empty";
+"20202"="Password Invalid";
+"20203"="Account Invalid";
+"20204"="Password Invalid";
+"20205"="Account repeated login or token expired";
+"20207"="Account Error";
+"20304"="Account Error";
+"20400"="Account Cannot Be Empty";
+"20401"="Password Cannot Be Empty";
+"20402"="Password is Invalid";
+"20403"="Account is Invalid";
+"20404"="E-mail Format Error";
+"20405"="Account Already Exist";
+"20406"="Unknown Error, Cannot Register";
+"20500"="Account Cannot Be Empty";
+"20501"="Account Error";
+"20502"="Password Cannot Be Empty";
+"20503"="Password Invalid";
+"20504"="User ID Invalid";
+"20505"="Account Already Bound";
+"20506"="Account Already Exist";
+"20602"="Account Error";
+"20603"="E-mail Error";
+"20703"="Verification Code Invalid";
+"20704"="Verification Failed";
+"20803"="Reset Failed";
+"20900"="游客账号绑定第三方时，游客账号已经被绑定。";
+"20901"="游客账号绑定第三方时，第三方ID已经被绑定。";
+"unkown_server_error_code"="Unkown error";

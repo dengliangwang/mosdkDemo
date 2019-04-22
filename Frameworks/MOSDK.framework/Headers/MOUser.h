@@ -8,26 +8,40 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger,MOAccountLevel)
+{
+    MOAccountLevelNone = 0,
+    MOAccountLevelOne = 1 << 0,//游客账号
+    MOAccountLevelTwo = 1 << 1,//gamecenter 账号或者 游客账号绑定了gamecenter 账号
+    MOAccountLevelThree = 1 << 2 //普通账号，gamecenter账号绑定普通账号，游客账号同时绑定了gamecenter和普通账号
+};
 
 @interface MOUser
     : NSObject
+// 绑定的账号
+@property(nonatomic, copy) NSString *bindedAccount;
+
+//绑定的第三方账号
+@property(nonatomic, copy) NSString *thirdAccountType;
+
+- (MOAccountLevel)getUserAccountLevel;
 
 /**
  * @brief 初始化方法。
  *
- * @param aUID 用户ID
+ * @param aID 用户ID
  * @param aName 用户名
  * @param aToken 用户登录符号
 *
  * @return 已初始化好的 MOUser 实例对象
  */
-- (id) initWithDetail : (NSString*)aID name : (NSString*)aName token : (NSString*)aToken;
+- (id) initWithDetail : (NSNumber*)aID name : (NSString*)aName token : (NSString*)aToken;
 
 
 /**
  * @brief 初始化方法。
  *
- * @param aUID      用户ID
+ * @param aID      用户ID
  * @param aName     用户名
  * @param aToken    用户登录符号
  * @param aDevice   设备标识
@@ -37,7 +51,7 @@
  *
  * @return 已初始化好的 MOUser 实例对象
  */
-- (id) initWithDetail : (NSString*)aID
+- (id) initWithDetail : (NSNumber*)aID
                  name : (NSString*)aName
                 token : (NSString*)aToken
                device : (NSString*)aDevice
@@ -51,7 +65,7 @@
  *
  * @return 用户 ID 字符串
  */
-- (NSString*) getID;
+- (NSNumber*) getID;
 
 /**
  * @brief 获取用户名。
@@ -60,6 +74,10 @@
  */
 - (NSString*) getName;
 
+
+- (BOOL) isThirdAccount;
+
+- (BOOL) isThirdAccountBounded;
 
 /**
  * @brief 获取用户登录符号。
@@ -103,11 +121,11 @@
 - (NSString*) getDisplayName;
 
 /**
- * @brief 是否绑定 Facebook 账号。
+ * @brief 是否是Facebook 账号。
  *
- * @return YES 已绑定，NO 未绑定
+ * @return YES ，NO
  */
-- (BOOL) isFacebookBound;
+- (BOOL) isMIsFacebookAccount;
 
 /**
  * @brief 获取 Facebook 账号用户ID。
@@ -116,12 +134,7 @@
  */
 - (NSString*) getFacebookID;
 
-/**
- * @brief 是否绑定 Google 账号。
- *
- * @return YES 已绑定，NO 未绑定
- */
-- (BOOL) isGoogleBound;
+
 
 /**
  * @brief 获取 Google 账号用户ID。

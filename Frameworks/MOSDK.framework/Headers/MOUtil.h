@@ -3,7 +3,7 @@
 
 typedef NS_ENUM(NSInteger,MO_Http_Method)
 {
-    
+
     MO_Http_Method_Error,
     MO_Http_Method_Get,
     MO_Http_Method_Post,
@@ -15,8 +15,17 @@ typedef NS_ENUM(NSInteger,MO_Http_Method)
     MO_Http_Method_CONNECT
 };
 
-//判断是是否是 iphone x
-#define KISIphoneX (CGSizeEqualToSize(CGSizeMake(375.f, 812.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(812.f, 375.f), [UIScreen mainScreen].bounds.size))
+//判断是是否是 //iPhoneX / iPhoneXS
+#define isIphoneX_XS (CGSizeEqualToSize(CGSizeMake(375.f, 812.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(812.f, 375.f), [UIScreen mainScreen].bounds.size))
+// iPhoneXR / iPhoneXSMax
+#define isIphoneXR_XSMax (CGSizeEqualToSize(CGSizeMake(414.f, 896.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(896.f, 414.f), [UIScreen mainScreen].bounds.size))
+
+//异性全面屏(是否具有齐刘海)
+#define   isFullScreen    (isIphoneX_XS || isIphoneXR_XSMax)
+
+// Status bar height.
+#define  StatusBarHeight     (isFullScreen ? 44.f : 20.f)
+
 
 @interface MOUtil
 : NSObject
@@ -60,7 +69,7 @@ typedef NS_ENUM(NSInteger,MO_Http_Method)
 
 /**
  发起异步网络请求
- 
+
  @param RequestMethod 请求方法（GET/POST/HEADER...）。
  @param isHttps 是否是HTTPS请求
  @param host 服务器地址，域名或IP地址
@@ -79,10 +88,26 @@ typedef NS_ENUM(NSInteger,MO_Http_Method)
                                                 data:(NSString*)data
                                    completionHandler:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler;
 
++ (void)wdl_sendAsynchronousHttpRequestWithHeaderEnanble:(BOOL)HeaderEnanble
+                                       RequestMethod:(MO_Http_Method)RequestMethod
+                                             isHttps:(BOOL)isHttps
+                                                host:(NSString*)host
+                                                port:(int)port
+                                           urlString:(NSString*)urlString
+                                                 cmd:(NSString*)cmd
+                                                data:(NSString*)data
+                                   completionHandler:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler;
+
 + (void) wdl_sendHttpRequestWithHttpMethod : (MO_Http_Method)httpMethod
                                    url : (NSURL*)url
                                   data : (NSString*)data
                       completionHandler:(nullable void (^)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler;
+
++ (void) wdl_sendHttpRequestWithHeaderEnable:(BOOL)HeaderEnable
+                             HttpMethod : (MO_Http_Method)httpMethod
+                                    url : (NSURL*)url
+                                   data : (NSString*)data
+                       completionHandler:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler;
 
 /**
  * 获得字符串的 UTF8 字节序列的 MD5。
@@ -132,6 +157,9 @@ completionHandler:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable r
 
 + (NSString*)getIDFA;
 
++ (NSString*)getStringFromUserDefaultsWithKey:(NSString*)key;
++ (BOOL)setStringDataToUserDefaultsWithValue:(NSString*)value key:(NSString*)key;
+
 
 //+ (NSString*) getReceiptSignature;
 + (BOOL) wdl_validReceipt : (NSData*)receipt;
@@ -142,14 +170,14 @@ completionHandler:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable r
 
 + (void)wdl_Model1RewardWithMorliaAppID:(NSString*)morliaAppID
                          activityId:(NSString*)activityId
-                             userId:(NSString*)userid
+                             userId:(NSNumber*)userid
                            gameRole:(NSString*)gameRole
                          gameServer:(NSString*)gameServer
                   completionHandler:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler;
 
 + (void)Model2RewardWithMorliaAppID:(NSString*)morliaAppID
                          activityId:(NSString*)activityId
-                             userId:(NSString*)userid
+                             userId:(NSNumber*)userid
                            gameRole:(NSString*)gameRole
                          gameServer:(NSString*)gameServer
                   completionHandler:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler;

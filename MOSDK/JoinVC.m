@@ -1,0 +1,23 @@
+//
+//  JoinVC.m
+//  MOSDK
+//
+//  Created by Jack on 16/3/16.
+//  Copyright © 2016年 Morlia. All rights reserved.
+//
+
+#import "JoinVC.h"
+
+
+@interface JoinVC ()
+
+
+
+@end  // JoinVC ()
+
+
+@implementation JoinVC
+
+
+
+@end  // JoinVC

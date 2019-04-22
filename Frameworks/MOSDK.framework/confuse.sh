@@ -4,7 +4,7 @@ TABLENAME=symbols
 SYMBOL_DB_FILE="symbols"
 STRING_SYMBOL_FILE="func.list"
 CONFUSE_FILE="$PROJECT_DIR/MOSDK"
-HEAD_FILE="$PROJECT_DIR/$PROJECT_NAME/codeObfuscation.h"
+HEAD_FILE="$PROJECT_DIR/MOSDK/codeObfuscation.h"
 export LC_CTYPE=C
 
 #取以.m或.h结尾的文件以+号或-号开头的行 |去掉所有+号或－号|用空格代替符号|n个空格跟着<号 替换成 <号|开头不能是IBAction|用空格split字串取第二部分|排序|去重复|删除空行|删掉以init开头的行>写进func.list
@@ -29,7 +29,7 @@ query()
 
 ramdomString()
 {
-    openssl rand -base64 64 | tr -cd 'a-zA-Z' |head -c 16
+    openssl rand -base64 64 | tr -cd 'a-zA-Z' |head -c 21
 }
 
 rm -f $SYMBOL_DB_FILE

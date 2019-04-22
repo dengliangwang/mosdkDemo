@@ -16,7 +16,7 @@
  * MOInitDelegate   初始化回调接口
  */
 @interface AppDelegate
-    : UIResponder <UIApplicationDelegate, MOInitDelegate>
+    : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow* window;
 

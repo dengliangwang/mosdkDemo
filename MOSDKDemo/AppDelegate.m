@@ -19,12 +19,7 @@
 
 - (BOOL) application : (UIApplication*)aApp didFinishLaunchingWithOptions : (NSDictionary*)aOptions
 {
-    /**
-     * 魔亚平台接入
-     *
-     * 第一步：初始化；
-     */
-    [MO init : self];
+    
     
     /**
      * 魔亚平台接入
@@ -82,20 +77,5 @@
     return YES;
 }
 
-/**
- * 魔亚平台初始化成功
- */
-- (void) initSuccess : (MO*)mo
-{
-    NSLog(@"Demo init success.");
-}
-
-/**
- * 魔亚平台初始化失败
- */
-- (void) initFailure : (MOError*)error
-{
-    NSLog(@"Demo error: %@", error);
-}
 
 @end  // AppDelegate
