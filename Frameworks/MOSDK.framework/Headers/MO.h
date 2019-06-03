@@ -100,7 +100,7 @@ typedef enum{
  *
  * @brief SDK接入配置接口，必接。
  */
-+ (void) init : (id<MOInitDelegate>)delegate;
++ (void) init : (id<MOInitDelegate>)delegate domainName:(NSString*)aDomainName portNumber:(NSInteger)aPortNumber;
 
 /**
  * 在 AppDelegate 中实现 `application:didFinishLaunchingWithOptions:` 协议，并调用此特定接口。
@@ -152,7 +152,7 @@ typedef enum{
 #endif
 
 //自动登录
-- (void) automaticLoginWithViewController:(UIViewController*)vc;
+- (void) automaticLoginWithDelegate : (id<MODelegate>)aDelegate ViewController:(UIViewController*)vc;
 
 //账户管理
 - (void) showAccountManagerCenter: (UIViewController*)aVC;
