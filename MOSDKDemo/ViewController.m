@@ -11,7 +11,7 @@
 #import "AppDelegate.h"
 
 
-@interface ViewController ()<MOInitDelegate>
+@interface ViewController ()<MOInitDelegate,MOGameControlDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton*  mLogin;
 @property (weak, nonatomic) IBOutlet UIButton*  mLogout;
@@ -47,6 +47,9 @@
      * 设置支付回调 MOTradeDelegate，可多次设置，可设置不同的实例；
      */
     [[MO instance] setTradeDelegate : self];
+    
+    //设置切换服务器代理（若无切换服务器逻辑相关需求，请不要设置代理，）
+    [[MO instance] setGameControlDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,7 +66,9 @@
      *
      * 第一步：初始化；
      */
-    [MO init : self];
+    NSString *host = @"ulb.miradream.com";//SDK域名，运营处获取，此为示例域名
+    NSInteger port = 443;//SDK请求端口，如无特殊需求，默认传入443
+    [MO init:self domainName:host portNumber:port];
 }
 - (IBAction) on : (id)aSender
 {
@@ -319,14 +324,29 @@
     NSLog(@"MOSDK Demo: buyProductFailed %d:%@", (int)aError.mCode, aError.mMessage);
 }
 
+//切换到测试服回调
+- (void) shouldGoToTestServer:(MOUser*)user
+{
+    // 添加进入测试服逻辑
+    NSLog(@"shouldGoToTestServer");
+}
+//切换到正式服回调
+- (void) shouldGoToOfficialServer:(MOUser*)user
+{
+    // 添加进入正式服逻辑
+    NSLog(@"shouldGoToOfficialServer");
+}
+
 /**
  * 魔亚平台初始化成功
  */
 - (void) initSuccess : (MO*)mo
 {
     NSLog(@"Demo init success.");
-    [mo automaticLoginWithViewController:self];
+    [mo automaticLoginWithDelegate:self ViewController:self];
 }
+
+
 
 /**
  * 魔亚平台初始化失败
