@@ -1,0 +1,11 @@
+framework module hysdk {
+  umbrella header "hysdk.h"
+
+  export *
+  module * { export * }
+}
+
+module hysdk.Swift {
+    header "hysdk-Swift.h"
+    requires objc
+}

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MOSDK/MOSDK.h>
+#import <hysdk/hysdk-Swift.h>
 
 
 /**
@@ -18,7 +18,7 @@
  */
 
 @interface ViewController
-    : UIViewController<MODelegate, MOTradeDelegate>
+    : UIViewController
 
 
 @end  // ViewController

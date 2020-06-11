@@ -1,0 +1,174 @@
+/*
+  Localizable.strings
+  MOSDK
+
+  Created by Jack on 16/3/29.
+  Copyright © 2016年 Morlia. All rights reserved.
+*/
+
+
+/* Login */
+"t_account_login"="Account Login";
+"t_account_logout"  = "Logout";
+"t_btn_login"       = "Login";
+"t_btn_guest"       = "Guest";
+"t_btn_join"        = "Register";
+"t_btn_fb"          = "Facebook";
+"t_btn_gc"="GameCenter";
+"t_btn_gl"="Google";
+"t_btn_find_password"="Forgot PW";
+"t_btn_guest_account_bind"="Bind Account";
+"t_btn_use_other_account_login"="Use Other Account";
+"tip_in_account"="Input your account";
+"tip_in_pwd"="Input your login password";
+
+
+/* Join */
+"t_account_join"        = "Register Account";
+"t_btn_join_c"          = "Register";
+"t_btn_reset"           = "Reset";
+"tip_in_account_new"    = "6~16 letters&nums";
+"tip_in_pwd1"           = "Input your login password";
+"tip_in_pwd2"           = "Input login password again";
+"tip_in_email"          = "Input your E-mail address";
+
+/* 获取验证码*/
+"t_account_get_verification_code"="Verification Code";
+"tip_in_account_find_pass_word"="Please Enter Your Account";
+"t_btn_get_v_code_find_pass_word"="Confirm";
+"tip_in_v_code_find_pass_word"="Enter Verification Code";
+"t_btn_send_v_code_find_pass_word"="Confirm";
+"tip_get_v_code_success"="Send Verification Code Success";
+"tip_get_v_code_failure"="Send Verification Code Failed";
+"tip_empty_v_code"="Please enter Verification Code";
+"tip_eror_check_v_code"="Verification Code Incorrect";
+"tip_for_forget_account_or_email_case"="If you forgot your account or e-mail, please contact Customer Support at our Facebook Fan Page";
+
+/* 重置密码*/
+"title_for_reset_password"="Reset Password";
+"tip_for_input_password_in_reset_password"="Enter New Password";
+"tip_for_input_repeat_password_in_reset_password"="Enter Password Again";
+"tip_for_confirm_btn_in_reset_password"="Confirm";
+"tip_for_reset_password_success"="Reset Password Success";
+"tip_for_reset_password_failure"="Reset Password Failed";
+
+/* Toast */
+"toast_welcome_back" = "Welcome back, %@!";
+
+
+
+/* Result */
+"r_title_info"      = "Info";
+"r_title_warning"   = "Warning";
+"r_title_error"     = "Error";
+
+"r_network_error"   = "Network error";
+"r_data_error"      = "Data error";
+"r_internal_error"  = "Internal error";
+"r_invalid_account_error"="Illegal account, account type error";
+"r_invalid_gamecenter_status_error"="Gamecenter login failed. Please activate your Gamecenter on your device.";
+
+"r_acc_empty"           = "Please input your account name";
+"r_pwd_empty"           = "Please input your password";
+"r_invalid_acc"         = "Invalid account name";
+"r_acc_or_pwd_error"    = "Account name or password error";
+"r_acc_new_empty"       = "Please input new account name";
+"r_pwd1_invalid"        = "Password must be atleast 6 characters";
+"r_pwd2_empty"          = "Please input your password again";
+"r_pwd2_n_match"        = "Two passwords not match";
+"r_email_empty"         = "Please input your E-mail address";
+"r_email_invalid"       = "E-mail address format error";
+"r_acc_reg_success"     = "Account register success";
+
+/* 1.0.10005 */
+"t_btn_ok"              = "OK";
+"t_btn_cancel"          = "Cancel";
+"t_btn_complete"        = "Complete";
+"t_btn_yes"             = "Yes";
+"t_btn_no"              = "No";
+
+
+"t_account_sel"         = "Select Account";
+"t_account_mo"          = "Account";
+"t_account_ta"          = "Third Party Account";
+"t_account_guest"       = "Guest Account";
+"t_account_bind"        = "Bind Account";
+
+"t_name_mo"             = "%@ [%d]";
+"t_name_guest"          = "Guest";
+"t_name_gamecenter"     = "GameCenter";
+"t_name_facebook"       = "Facebook";
+"t_name_google"         = "Google";
+
+"t_btn_enter"           = "Enter";
+"t_btn_enter_s"         = "Enter (%@)";
+"t_btn_enter_p"         = "Pause";
+"t_btn_help"            = "Help";
+"t_btn_logout"          = "Logout";
+"t_btn_bind"            = "Bind";
+"t_btn_bind_facebook"   = "Bind Facebook Account";
+"t_btn_bind_google"     = "Bind Google Account";
+
+"r_args_error"          = "Arguments error";
+"r_unknown_error"       = "Unknown error";
+"r_accounts_num_limit"  = "Number of accounts more than limit";
+"r_account_repeat"      = "Account repeat login or token expired";
+
+"tip_guest_risks"       = "Your current login is a guest account, maybe have some risks, that missing some data. We suggest you binding account as quickly as possible.";
+
+"r_bind_mo_success"         = "Bind account success";
+"r_bind_mo_failed"          = "Bind account failed";
+"r_bind_facebook_success"   = "Bind facebook account success";
+"r_bind_facebook_failed"    = "Bind facebook account failed";
+"r_bind_google_success"     = "Bind google account success";
+"r_bind_google_failed"      = "Bind google account failed";
+"facebook_like_reward_btn_title" = "Like";
+"r_account_manager_switch_acount_btn_title"="Switch Acc";
+"r_account_manager_bind_acount_title"="Bind Account";
+"r_account_manager_bind_acount_btn_title"="Bind Acc";
+"r_account_manager_unable_bind_acount_tip"="Guest accounts have been bound.";
+"r_account_manager_bind_gamecenter_btn_title"="Bind GameCenter";
+"r_account_manager_bind_gamecenter_tip_for_bind_falure"="Failure to bind GameCenter. Please use account and password to bind.";
+"r_account_manager_bind_mo_acount_btn_title"="Bind Account and Password";
+"r_switch_account_page_title"="Switch Account";
+"r_tip_for_bind_success"="Bind Successfully";
+"r_bind_account_and_pw_page_get_quick_account"="Random Acc";
+//初始化话失败提示文字
+"mosdk_tip_for_init_failure"="Internet error, please restart the game and try agin";
+"mosdk_content_for_init_failure"="Initialize Failed. Please Restart Game ";
+"mosdk_ok_btn_content_for_init_failure"="Confirm";
+
+"mosdk_tip_for_init_ban"="Sorry, your region is not supported";
+
+// 服务器code码对应提示
+"10300"="Cannot Invite More Than 100 People At Once";
+"20200"="Account Cannot Be Empty";
+"20201"="Password Cannot Be Empty";
+"20202"="Password Invalid";
+"20203"="Account Invalid";
+"20204"="Password Invalid";
+"20205"="Account repeated login or token expired";
+"20207"="Account Error";
+"20304"="Account Error";
+"20400"="Account Cannot Be Empty";
+"20401"="Password Cannot Be Empty";
+"20402"="Password is Invalid";
+"20403"="Account is Invalid";
+"20404"="E-mail Format Error";
+"20405"="Account Already Exist";
+"20406"="Unknown Error, Cannot Register";
+"20500"="Account Cannot Be Empty";
+"20501"="Account Error";
+"20502"="Password Cannot Be Empty";
+"20503"="Password Invalid";
+"20504"="User ID Invalid";
+"20505"="Account Already Bound";
+"20506"="Account Already Exist";
+"20602"="Account Error";
+"20603"="E-mail Error";
+"20703"="Verification Code Invalid";
+"20704"="Verification Failed";
+"20803"="Reset Failed";
+"20900"="When the guest account is bound to a third party, the guest account is already bound.";
+"20901"="When the guest account is bound to a third party, the third party ID is already bound.";
+"unkown_server_error_code"="Unkown error";

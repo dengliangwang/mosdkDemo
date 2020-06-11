@@ -55,6 +55,8 @@
 		<string>fb-messenger-platform-20150128</string>
 		<string>fb-messenger-platform-20150218</string>
 		<string>fb-messenger-platform-20150305</string>
+        <string>naversearchapp</string>
+        <string>naversearchthirdlogin</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
@@ -87,6 +89,8 @@
 			</dict>
 		</dict>
 	</dict>
+    <key>NSCameraUsageDescription</key>
+    <string>需要获取您的相机权限，仅在cafe录制视频时使用。</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>需要获取您的相册权限</string>
 	<key>UILaunchStoryboardName</key>

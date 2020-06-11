@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <hysdk/hysdk-Swift.h>
 
 
 @interface AppDelegate ()
@@ -26,7 +26,8 @@
      *
      * 同步应用状态。
      */
-    [[MO instance] appDidFinishLaunching : aApp options : aOptions];
+    //[[MO instance] appDidFinishLaunching : aApp options : aOptions];
+    [[HY sharedInstance] application:aApp didFinishLaunchingWithOptions:aOptions];
     
     return YES;
 }
@@ -42,7 +43,8 @@
      *
      * 同步应用状态。
      */
-    [[MO instance] appEnterBackground];
+    [[HY sharedInstance] applicationDidEnterBackground:aApp];
+    
 }
 
 - (void) applicationWillEnterForeground : (UIApplication*)aApp
@@ -56,26 +58,18 @@
      *
      * 同步应用状态。
      */
-    [[MO instance] appBecomeActive];
+    [[HY sharedInstance] applicationDidBecomeActive:aApp];
+
 }
 
 - (void) applicationWillTerminate : (UIApplication*)aApp
 {
 }
 
-- (BOOL) application : (UIApplication*)aApp openURL:(nonnull NSURL*)aURL sourceApplication : (nullable NSString*)aSourceApp annotation : (nonnull id)aAnnotation
-{
-    /**
-     * 魔亚平台接入
-     *
-     * 应用访问。
-     */
-    [[MO instance] appOpenURL : aApp
-                          url : aURL
-                    sourceApp : aSourceApp
-                   annotation : aAnnotation];
-    return YES;
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+   return [[HY sharedInstance] application:app open:url options:options];
 }
+
 
 
 @end  // AppDelegate

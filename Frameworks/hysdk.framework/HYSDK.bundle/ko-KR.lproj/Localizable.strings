@@ -1,0 +1,175 @@
+/* 
+  Localizable.strings
+  MOSDK
+
+  Created by Jack on 16/09/30.
+  Copyright © 2016年 Morlia. All rights reserved.
+*/
+
+
+/* Login */
+"t_account_login"   = "계정으로 로그인";
+"t_account_logout"  = "로그아웃";
+"t_btn_login"       = "로그인";
+"t_btn_guest"       = "게스트 로그인";
+"t_btn_join"="회원가입";
+"t_btn_fb"="Facebook 로그인";
+"t_btn_gc"="GameCenter 로그인";
+"t_btn_gl"="Google 로그인";
+"t_btn_find_password"="비번 찾기";
+"t_btn_guest_account_bind"="계정 연동";
+"t_btn_use_other_account_login"="기타 계정 사용";
+"tip_in_account"    = "계정을 입력하세요";
+"tip_in_pwd"        = "비밀번호를 입력하세요";
+
+
+/* Join */
+"t_account_join"        = "회원 가입하기";
+"t_btn_join_c"          = "회원가입";
+"t_btn_reset"           = "리셋";
+"tip_in_account_new"    = "6~16자 영어+수자";
+"tip_in_pwd1"           = "비밀번호를 입력 하세요";
+"tip_in_pwd2"           = "비밀번호를 다시 입력 하세요";
+"tip_in_email"          = "이메일 주소를 입력 하세요";
+
+/* 인증코드 획득*/
+"t_account_get_verification_code"="인증코드 획득";
+"tip_in_account_find_pass_word"="계정 입력";
+"t_btn_get_v_code_find_pass_word"="확인";
+"tip_in_v_code_find_pass_word"="인증코드 입력";
+"t_btn_send_v_code_find_pass_word"="확인";
+"tip_get_v_code_success"="인증코드 발송 성공";
+"tip_get_v_code_failure"="인증코드 발송 실패";
+"tip_empty_v_code"="인증코드를 입력하세요";
+"tip_eror_check_v_code"="인증코드 오류";
+"tip_for_forget_account_or_email_case"="계정 혹은 메일을 기억못하실 경우 facebook을 통하여 고객 센터에 연락하세요.";
+
+/* 비밀번호 재설정*/
+"title_for_reset_password"="비밀번호 재설정";
+"tip_for_input_password_in_reset_password"="비밀번호";
+"tip_for_input_repeat_password_in_reset_password"="비밀번호 재확인";
+"tip_for_confirm_btn_in_reset_password"="Confirm";
+"tip_for_reset_password_success"="비밀번호 재설정 성공";
+"tip_for_reset_password_failure"="비밀번호 재설정 실패";
+
+/* Toast */
+"toast_welcome_back" = "반가워요 %@님!";
+
+
+
+/* Result */
+"r_title_info"      = "정보";
+"r_title_warning"   = "경고";
+"r_title_error"     = "오류";
+
+"r_network_error"   = "네트워크 연결 오류";
+"r_data_error"      = "데이터 오류";
+"r_internal_error"  = "프로그램 내부 오류";
+"r_invalid_account_error"="Illegal account, account type error";
+"r_invalid_gamecenter_status_error"="게임센터 로그인 실패，게임센터 기능 켜기여부를 확인하세요";
+
+"r_acc_empty"           = "계정를 입력하세요";
+"r_pwd_empty"           = "비밀번호를 입력하세요";
+"r_invalid_acc"         = "잘못된 계정 입니다";
+"r_acc_or_pwd_error"    = "계정 혹은 비밀번호가 틀렸습니다";
+"r_acc_new_empty"       = "새로운 계정 이름을 입력하세요";
+"r_pwd1_invalid"        = "비밀번호 잘못되었습니다";
+"r_pwd2_empty"          = "비밀번호 다시 입력하세요";
+"r_pwd2_n_match"        = "비밀번호가 일치하지 않습니다";
+"r_email_empty"         = "이메일 주소 입력";
+"r_email_invalid"       = "이메일 주소가 잘못되었습니다";
+"r_acc_reg_success"     = "회원가입 성공";
+
+/* 1.0.10005 */
+"t_btn_ok"              = "확인";
+"t_btn_cancel"          = "취소";
+"t_btn_complete"        = "완성";
+"t_btn_yes"             = "예";
+"t_btn_no"              = "아니오";
+
+
+"t_account_sel"         = "계정 선택";
+"t_account_mo"          = "계정";
+"t_account_ta"          = "기타 계정";
+"t_account_guest"       = "게스트 계정";
+"t_account_bind"        = "계정 연동";
+
+"t_name_mo"             = "%@ [%d]";
+"t_name_guest"          = "게스트";
+"t_name_gamecenter"     = "GameCenter";
+"t_name_facebook"       = "Facebook";
+"t_name_google"         = "Google";
+
+"t_btn_enter"           = "로그인";
+"t_btn_enter_s"         = "들어가기(%@)";
+"t_btn_enter_p"         = "일시정지";
+"t_btn_help"            = "도움말 정보";
+"t_btn_logout"          = "로그아웃";
+"t_btn_bind"            = "연동";
+"t_btn_bind_facebook"   = "연동 Facebook";
+"t_btn_bind_google"     = "연동 Google";
+
+"r_args_error"          = "파라미터 오류";
+"r_unknown_error"       = "알 수 없는 오류";
+"r_accounts_num_limit"  = "계정 수량이 한도를 초과했습니다";
+"r_account_repeat"      = "중복 로그인 혹은 인증 기간을 초과하였습니다";
+
+"tip_guest_risks"       = "게스트 로그인은 데이터 잃어버릴 위험이 있습니다. 계정으로 연동하시길 바랍니다";
+
+"r_bind_mo_success"         = "계정 연동성공";
+"r_bind_mo_failed"          = "계정 연동실패";
+"r_bind_facebook_success"   = "Facebook 계정 연동성공";
+"r_bind_facebook_failed"    = "Facebook 계정 연동실패";
+"r_bind_google_success"     = "Google 계정 연동성공";
+"r_bind_google_failed"      = "Google 계정 연동실패";
+"facebook_like_reward_btn_title" = "엄지 손가락";
+
+"r_account_manager_switch_acount_btn_title"="계정변경";
+"r_account_manager_bind_acount_title"="계정연동";
+"r_account_manager_bind_acount_btn_title"="계정연동";
+"r_account_manager_unable_bind_acount_tip"="게스트계정 연동되었어요.";
+"r_account_manager_bind_gamecenter_btn_title"="GameCenter연동";
+"r_account_manager_bind_gamecenter_tip_for_bind_falure"="GameCenter연동 실패, 계정비번연동을 추천합니다.";
+"r_account_manager_bind_mo_acount_btn_title"="계정비번연동";
+"r_switch_account_page_title"="계정변경";
+"r_bind_account_and_pw_page_get_quick_account"="빠른 계정 생성";
+"r_tip_for_bind_success"="연동 성공";
+//初始化话失败提示文字
+"mosdk_tip_for_init_failure"="인터넷 오류. 게임 재시작하세요";
+"mosdk_content_for_init_failure"="초기화 실패. 게임 재실행 하세요";
+"mosdk_ok_btn_content_for_init_failure"="확인";
+
+"mosdk_tip_for_init_ban"="당신의 나라에서는 이용가능할 수 없습니다";
+
+// 服务器code码对应提示
+"10300"="한번에 100명이상 초대할수 없어요";
+"20200"="계정을 입력하세요";
+"20201"="비밀번호를 입력하세요";
+"20202"="비밀번호를 사용할수 없어요";
+"20203"="계정 잘못 입력하셨어요";
+"20204"="비밀번호 잘못 입력하셨어요";
+"20205"="계정 중복 로그인. 로그인 인증 기한 초과";
+"20207"="계정 오류";
+"20304"="계정 오류";
+"20400"="계정을 입력하세요";
+"20401"="비밀번호를 입력하세요";
+"20402"="비밀번호를 사용할수 없어요";
+"20403"="계정을 사용할수 없어요";
+"20404"="이메일을 사용할수 없어요";
+"20405"="중복 계정";
+"20406"="환경 이상. 회원가입 실패";
+"20500"="계정을 입력하세요";
+"20501"="계정을 사용할수 없어요";
+"20502"="비밀번호를 입력하세요";
+"20503"="비밀번호를 사용할수 없어요";
+"20504"="ID 오류";
+"20505"="이 계정은 이미 연동되어 있어요";
+"20506"="중복 계정";
+"20602"="계정 오류";
+"20603"="이메일 오류";
+"20703"="인증번호 불일치";
+"20704"="인증번호 기한 초과";
+"20803"="비밀번호 변경실패";
+"20900"="游客账号绑定第三方时，游客账号已经被绑定。";
+"20901"="游客账号绑定第三方时，第三方ID已经被绑定。";
+"unkown_server_error_code"="미지의 오류";

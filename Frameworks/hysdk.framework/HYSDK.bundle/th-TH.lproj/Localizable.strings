@@ -1,0 +1,179 @@
+/*
+  Localizable.strings
+  MOSDK
+
+  Created by Jack on 16/3/29.
+  Copyright © 2016年 Morlia. All rights reserved.
+*/
+
+
+/* Login */
+"t_account_login"   = "เข้าสู่ระบบบัญชี";
+"t_account_logout"  = "ออกจากระบบ";
+"t_btn_login"       = "เข้าสู่ระบบ";
+"t_btn_guest"       = "Guest";
+"t_btn_join"        = "ลงทะเบียนบัญชี";
+"t_btn_fb"          = "เข้าสู่ระบบ Facebook";
+"t_btn_gc"="เข้าสู่ระบบ GameCenter";
+"t_btn_gl"="เข้าสู่ระบบ Google";
+"t_btn_find_password"="กู้รหัสผ่าน";
+"tip_in_account"    = "โปรดกรอกชื่อบัญชีของคุณ";
+"tip_in_pwd"        = "โปรดกรอกรหัสผ่านของคุณ";
+"t_btn_use_other_account_login"="ใช้บัญชีอื่น";
+
+
+/* Join */
+"t_account_join"        = "ลงทะเบียนบัญชี";
+"t_btn_join_c"          = "ลงทะเบียน";
+"t_btn_reset"           = "รีเซ็ท";
+"tip_in_account_new"    = "6~16ตัวอักษร+ตัวเลข";
+"tip_in_pwd1"           = "โปรดกรอกรหัสผ่านของคุณ";
+"tip_in_pwd2"           = "โปรดกรอกรหัสผ่านของคุณอีกครั้ง";
+"tip_in_email"          = "โปรดกรอกอีเมลของคุณ";
+
+/* 獲取驗證碼*/
+"t_account_get_verification_code"="รับรหัสยืนยันตัวตน";
+"tip_in_account_find_pass_word"="โปรดกรอกชื่อบัญชี";
+"t_btn_get_v_code_find_pass_word"="ยืนยัน";
+"tip_in_v_code_find_pass_word"="โปรดกรอกรหัสยืนยันตัวตน";
+"t_btn_send_v_code_find_pass_word"="ยืนยัน";
+"tip_get_v_code_success"="ส่งรหัสยืนยันตัวตนสำเร็จ";
+"tip_get_v_code_failure"="ส่งรหัสยืนยันตัวตนล้มเหลว";
+"tip_empty_v_code"="โปรดกรอกรหัสยืนยันตัวตน";
+"tip_eror_check_v_code"="รหัสยืนยันตัวตนผิดพลาด";
+"tip_for_forget_account_or_email_case"="ถ้าหากคุณลืมชื่อบัญชีหรืออีเมล สามารถติดต่อฝ่ายบริการลูกค้าผ่านทางหน้าFacebookเพื่อดำเนินการกู้คืน";
+
+/* 重置密碼*/
+"title_for_reset_password"="รีเซ็ทรหัสผ่าน";
+"tip_for_input_password_in_reset_password"="โปรดกรอกรหัสผ่านใหม่";
+"tip_for_input_repeat_password_in_reset_password"="ยืนยันรหัสผ่านใหม่";
+"tip_for_confirm_btn_in_reset_password"="ยืนยัน";
+"tip_for_reset_password_success"="รีเซ็ทรหัสผ่านสำเร็จ";
+"tip_for_reset_password_failure"="รีเซ็ทรหัสผ่านล้มเหลว";
+
+
+
+/* Toast */
+"toast_welcome_back" = "ยินดีต้อนรับกลับมา %@！";
+
+
+
+/* Result */
+"r_title_info"      = "ข้อมูล";
+"r_title_warning"   = "คำเตือน";
+"r_title_error"     = "ผิดพลาด";
+
+"r_network_error"   = "การสื่อสารของเครือข่ายผิดพลาด";
+"r_data_error"      = "ตัวเลขผิดพลาด";
+"r_internal_error"  = "ระดับภายในผิดพลาด";
+"r_invalid_account_error"="บัญชีไม่ถูกต้อง ประเภทบัญชีผิดพลาด";
+"r_invalid_gamecenter_status_error"="เข้าสู่ระบบ GameCenter ล้มเหลว โปรดเปิดฟังก์ชั่นGameCenter";
+
+"r_acc_empty"           = "โปรดกรอกชื่อผู้ใช้ของคุณ";
+"r_pwd_empty"           = "โปรดกรอกรหัสผ่านของคุณ";
+"r_invalid_acc"         = "ชื่อผู้ใช้ไม่ถูกต้อง";
+"r_acc_or_pwd_error"    = "ชื่อผู้ใช้หรือรหัสผ่านผิดพลาด";
+"r_acc_new_empty"       = "โปรดกรอกชื่อบัญชีใหม่";
+"r_pwd1_invalid"        = "รหัสผ่านไม่สามารถน้อยกว่า6ตัว";
+"r_pwd2_empty"          = "โปรดกรอกรหัสผ่านของคุณอีกครั้ง";
+"r_pwd2_n_match"        = "รหัสผ่านที่กรอกทั้งสองครั้งต้องเหมือนกัน";
+"r_email_empty"         = "โปรดกรอกอีเมลของคุณ";
+"r_email_invalid"       = "รูปแบบอีเมลไม่ถูกต้อง";
+"r_acc_reg_success"     = "ลงทะเบียนบัญชีสำเร็จ";
+
+/* 1.0.10005 */
+"t_btn_ok"              = "ตกลง";
+"t_btn_cancel"          = "ยกเลิก";
+"t_btn_complete"        = "เสร็จสิ้น";
+"t_btn_yes"             = "ใช่";
+"t_btn_no"              = "ไม่ใช่";
+
+
+"t_account_sel"         = "เลือกบัญชี";
+"t_account_mo"          = "บัญชี";
+"t_account_ta"          = "บัญชีบุคคลภายนอก";
+"t_account_guest"       = "บัญชีGuest";
+"t_account_bind"        = "ผูกบัญชี";
+
+"t_name_mo"             = "%@ [%d]";
+"t_name_guest"          = "Guest";
+"t_name_gamecenter"     = "GameCenter";
+"t_name_facebook"       = "Facebook";
+"t_name_google"         = "Google";
+
+"t_btn_enter"           = "เข้าสู่";
+"t_btn_enter_s"         = "เข้าสู่ (%@))";
+"t_btn_enter_p"         = "หยุดชั่วคราว";
+"t_btn_help"            = "ช่วยเหลือ";
+"t_btn_logout"          = "ออกจากระบบ";
+"t_btn_bind"            = "ผูก";
+"t_btn_bind_facebook"   = "ผูกบัญชีกับ Facebook";
+"t_btn_bind_google"     = "ผูกบัญชีกับ Google";
+
+"r_args_error"          = "จำนวนสัมประสิทธิ์ผิดพลาด";
+"r_unknown_error"       = "ไม่ทราบความผิดพลาด";
+"r_accounts_num_limit"  = "จำนวนบัญชีเกินกำหนด";
+"r_account_repeat"      = "บัญชีเข้าสู่ระบบซ้ำหรือการตรวจสอบเข้าสู่ระบบหมดอายุ";
+
+"tip_guest_risks"       = "ก่อนหน้านี้คุณเข้าสู่ระบบโดยบัญชีGuest ซึ่งมีความเสี่ยงในการสูญหายของข้อมูล ทางเราขอแนะนำให้คุณรีบผูกบัญชี";
+
+"r_bind_mo_success"         = "ผูกบัญชีสำเร็จ";
+"r_bind_mo_failed"          = "ผูกบัญชีล้มเหลว";
+"r_bind_facebook_success"   = "ผูกบัญชีกับ Facebook สำเร็จ";
+"r_bind_facebook_failed"    = "ผูกบัญชีกับ Facebook ล้มเหลว";
+"r_bind_google_success"     = "ผูกบัญชีกับ Google สำเร็จ";
+"r_bind_google_failed"      = "ผูกบัญชีกับ Google ล้มเหลว";
+"r_account_manager_switch_acount_btn_title"="เปลี่ยนบัญชี";
+"r_account_manager_bind_acount_title"="ผูกบัญชี";
+"r_account_manager_bind_acount_btn_title"="ผูกบัญชี";
+"r_account_manager_unable_bind_acount_tip"="บัญชีบุคคลภายนอกถูกผูกแล้ว";
+"r_account_manager_bind_gamecenter_btn_title"="ผูกกับGameCenter";
+"r_account_manager_bind_gamecenter_tip_for_bind_falure"="ผูกกับGameCenterล้มเหลว แนะนำให้คุณใช้รหัสผ่านบัญชีผูก";
+"r_account_manager_bind_mo_acount_btn_title"="ผูกรหัสผ่านบัญชี";
+"r_switch_account_page_title"="เปลี่ยนบัญชี";
+"r_bind_account_and_pw_page_get_quick_account"="สร้างบัญชีด่วน";
+"r_tip_for_bind_success"="ผูกสำเร็จ";
+
+"facebook_like_reward_btn_title" = "กดไลก์";
+
+//初始化失败提示文字
+"mosdk_tip_for_init_failure"="การเชื่อมต่อผิดปกติ โปรดออกจากระบบและลองอีกครั้ง";
+"mosdk_content_for_init_failure"="เริ่มต้นเกมล้มเหลว โปรดเข้าเกมใหม่อีกครั้ง";
+"mosdk_ok_btn_content_for_init_failure"="ยืนยัน";
+"mosdk_tip_for_init_ban"="เกมนี้ยังไม่เปิดให้บริการในประเทศของคุณ";
+
+// 服务器code码对应提示
+"10300"="ไม่สามารถเชิญชวนเกิน100คนใน1ครั้ง";
+"20200"="บัญชีว่างเปล่า";
+"20201"="รหัสผ่านว่างเปล่า";
+"20202"="รหัสผ่านไม่ตรงตามกำหนด";
+"20203"="บัญชีผิดพลาด";
+"20204"="รหัสผ่านผิดพลาด";
+"20205"="บัญชีเข้าสู่ระบบซ้ำหรือการตรวจสอบเข้าสู่ระบบหมดอายุ";
+"20207"="บัญชีผิดปกติ";
+"20304"="บัญชีผิดปกติ";
+"20400"="บัญชีผู้ใช้ไม่สามารถเว้นว่างได้";
+"20401"="รหัสผ่านไม่สามารถเว้นว่างได้";
+"20402"="รหัสผ่านไม่ตรงตามกำหนด";
+"20403"="รูปแบบบัญชีผิดพลาด";
+"20404"="รูปแบบอีเมลผิดพลาด";
+"20405"="บัญชีนี้มีผู้ใช้แล้ว";
+"20406"="ไม่สามารถลงทะเบียนได้เนื่องจากเกิดสิ่งผิดปกติ";
+"20500"="บัญชีผู้ใช้ไม่สามารถเว้นว่างได้";
+"20501"="ชื่อบัญชีไม่ตรงตามกำหนด";
+"20502"="รหัสผ่านไม่สามารถเว้นว่างได้";
+"20503"="รหัสผ่านไม่ตรงตามกำหนด";
+"20504"="IDผู้ใช้ผิดพลาด";
+"20505"="บัญชีนี้ผูกแล้ว";
+"20506"="บัญชีนี้มีผู้ใช้แล้ว";
+"20602"="บัญชีผิดปกติ";
+"20603"="อีเมลผิดปกติ";
+"20703"="รหัสยืนยันตัวตนผิดพลาด";
+"20704"="รหัสยืนยันตัวตนล้มเหลว";
+"20803"="รีเซ็ทรหัสผ่านล้มเหลว";
+"20900"="เมื่อใช้บัญชีGuestผูกกับบัญชีบุคคลภายนอก บัญชีGuestถูกผูกอยู่แล้ว";
+"20901"="เมื่อใช้บัญชีGuestผูกกับบัญชีบุคคลภายนอก IDบุคคลภายนอกถูกผูกอยู่แล้ว";
+"unkown_server_error_code"="ไม่ทราบความผิดพลาด";
+
+
+

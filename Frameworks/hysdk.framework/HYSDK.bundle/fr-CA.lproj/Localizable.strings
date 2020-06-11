@@ -1,0 +1,174 @@
+/* 
+  Localizable.strings
+  MOSDK
+
+  Created by Jack on 16/3/29.
+  Copyright © 2016年 Morlia. All rights reserved.
+*/
+
+
+/* Login */
+"t_account_login"="Connexion au compte";
+"t_account_logout"  = "Deconnexion";
+"t_btn_login"       = "Connexion";
+"t_btn_guest"       = "Touristique";
+"t_btn_join"        = "S'inscrire";
+"t_btn_fb"          = "Facebook'";
+"t_btn_gc"="GameCenter";
+"t_btn_gl"="Google";
+"t_btn_find_password"="PW oublie";
+"t_btn_guest_account_bind"="Lier compte";
+"t_btn_use_other_account_login"="Utiliser autre compte";
+"tip_in_account"="Saisissez votre compte";
+"tip_in_pwd"="Saisissez votre mot de passe";
+
+
+/* Join */
+"t_account_join"        = "Enregistrer un compte'";
+"t_btn_join_c"          = "S'inscrire'";
+"t_btn_reset"           = "Reinitialiser'";
+"tip_in_account_new"    = "6~16 lettres&chiffres'";
+"tip_in_pwd1"           = "Saisissez votre mot de passe'";
+"tip_in_pwd2"           = "Saisissez a nouveau mot de passe'";
+"tip_in_email"          = "Saisissez votre e-mail'";
+
+/* 获取验证码*/
+"t_account_get_verification_code"="Code de verification";
+"tip_in_account_find_pass_word"="Veuillez entrer votre compte";
+"t_btn_get_v_code_find_pass_word"="Confirmer";
+"tip_in_v_code_find_pass_word"="Entrez le code de verification";
+"t_btn_send_v_code_find_pass_word"="Confirmer";
+"tip_get_v_code_success"="Envoyer le code de verification avec succes";
+"tip_get_v_code_failure"="Echec de l'envoi du code de verification";
+"tip_empty_v_code"="Veuillez entrer le code de verification";
+"tip_eror_check_v_code"="Code de verification incorrect";
+"tip_for_forget_account_or_email_case"="Si vous avez oublie votre compte ou votre e-mail, veuillez contacter le service client sur notre Facebook";
+
+/* 重置密码*/
+"title_for_reset_password"="Reinitialiser le mot de passe";
+"tip_for_input_password_in_reset_password"="Entrez un nouveau mot de passe";
+"tip_for_input_repeat_password_in_reset_password"="Entrez a nouveau le mot de passe";
+"tip_for_confirm_btn_in_reset_password"="Confirmer";
+"tip_for_reset_password_success"="Reussie de la reinitialisation du mot de passe";
+"tip_for_reset_password_failure"="Echec de la reinitialisation du mot de passe";
+
+/* Toast */
+"toast_welcome_back" = "Bienvenue a nouveau,%@!'";
+
+
+
+/* Result */
+"r_title_info"      = "Info";
+"r_title_warning"   = "Avertissement";
+"r_title_error"     = "Erreur'";
+
+"r_network_error"   = "Erreur reseau'";
+"r_data_error"      = "Erreur de donnees'";
+"r_internal_error"  = "Erreur interne'";
+"r_invalid_account_error"="Compte illegal, erreur de compte";
+"r_invalid_gamecenter_status_error"="Echec de la connexion. Veuillez activer votre Gamecenter sur votre appareil.";
+
+"r_acc_empty"           = "Veuillez saisir le nom de votre compte'";
+"r_pwd_empty"           = "Veuillez saisir votre mot de passe'";
+"r_invalid_acc"         = "Nom de compte invalide'";
+"r_acc_or_pwd_error"    = "Error de nom de compte ou de mot de passe'";
+"r_acc_new_empty"       = "Veuillez saisir un nouveau nom de compte'";
+"r_pwd1_invalid"        = "Le mot de passe doit contenir au moins 6 caracteres'";
+"r_pwd2_empty"          = "Veuillez saisir a nouveau votre mot de passe'";
+"r_pwd2_n_match"        = "Deux mots de passe ne correspondent pas'";
+"r_email_empty"         = "Veuillez saisir votre adresse e-mail'";
+"r_email_invalid"       = "Erreur de format d'adresse e-mail'";
+"r_acc_reg_success"     = "Reussite de l'enregistrement du compte'";
+
+/* 1.0.10005 */
+"t_btn_ok"              = "OK'";
+"t_btn_cancel"          = "Annuler'";
+"t_btn_complete"        = "Termine'";
+"t_btn_yes"             = "Oui'";
+"t_btn_no"              = "Non'";
+
+
+"t_account_sel"         = "Selectionner un compte'";
+"t_account_mo"          = "Compte'";
+"t_account_ta"          = "Compte tiers'";
+"t_account_guest"       = "Compte touristique'";
+"t_account_bind"        = "Lier un compte'";
+
+"t_name_mo"             = "%@ [%d]";
+"t_name_guest"          = "Compte touristique'";
+"t_name_gamecenter"     = "GameCenter'";
+"t_name_facebook"       = "Facebook'";
+"t_name_google"         = "Google'";
+
+"t_btn_enter"           = "Entrer'";
+"t_btn_enter_s"         = "Entrez (%@)'";
+"t_btn_enter_p"         = "Pause'";
+"t_btn_help"            = "Aide'";
+"t_btn_logout"          = "Deconnexion'";
+"t_btn_bind"            = "Lier";
+"t_btn_bind_facebook"   = "Lier un compte Facebook'";
+"t_btn_bind_google"     = "Lier un compte Google'";
+
+"r_args_error"          = "Erreur d'arguments'";
+"r_unknown_error"       = "Erreur inconnue'";
+"r_accounts_num_limit"  = "Nombre de comptes superieur a la limite'";
+"r_account_repeat"      = "Connexion repetee au compte'";
+
+"tip_guest_risks"       = "Votre compte actuelle est un compte touristique. Nous vous suggerons de lier le compte de que possible.'";
+
+"r_bind_mo_success"         = "Reuusie de la liaison du compte'";
+"r_bind_mo_failed"          = "Echec de la liaison du compte'";
+"r_bind_facebook_success"   = "Reuusie de la liaison du compte Facebook'";
+"r_bind_facebook_failed"    = "Echec de la liaison du compte Facebook'";
+"r_bind_google_success"     = "Reuusie de la liaison du compte Google'";
+"r_bind_google_failed"      = "Echec de la liaison du compte Google'";
+"facebook_like_reward_btn_title" = "J'aime";
+"r_account_manager_switch_acount_btn_title"="Changer Acc";
+"r_account_manager_bind_acount_title"="Lier un compte";
+"r_account_manager_bind_acount_btn_title"="Lier compte";
+"r_account_manager_unable_bind_acount_tip"="Les comptes de touristiques ont ete lies.";
+"r_account_manager_bind_gamecenter_btn_title"="Lier GameCenter";
+"r_account_manager_bind_gamecenter_tip_for_bind_falure"="Echec de la liaison de GameCenter. Veuillez utiliser le compte et le mot de passe pour la liaison.";
+"r_account_manager_bind_mo_acount_btn_title"="Lier le compte et le mot de passe";
+"r_switch_account_page_title"="Changer de compte";
+"r_tip_for_bind_success"="Reuusie de la liaison";
+"r_bind_account_and_pw_page_get_quick_account"="Acc aleatoire";
+//初始化话失败提示文字
+"mosdk_tip_for_init_failure"="Erreur Internet, veuillez redemarrer le jeu et essayer";
+"mosdk_content_for_init_failure"="Echec de l'initialisation. Veuillez redemarrer le jeu";
+"mosdk_ok_btn_content_for_init_failure"="Confirmer";
+
+"mosdk_tip_for_init_ban"="Desole, votre pay n'est pas disponible";
+
+// 服务器code码对应提示
+"10300"="Impossible d'inviter plus de 100 personnes a la fois";
+"20200"="Le compte ne peut pas etre vide";
+"20201"="Le mot de passe ne peut pas etre vide";
+"20202"="Mot de passe invalide";
+"20203"="Compte invalide";
+"20204"="Mot de passe invalide";
+"20205"="Connexion repetee au compte";
+"20207"="Erreur de compte";
+"20304"="Erreur de compte";
+"20400"="Le compte ne peut pas etre vide";
+"20401"="Le mot de passe ne peut pas etre vide";
+"20402"="Le mot de passe est invalide";
+"20403"="Le compte est invalide";
+"20404"="Erreur de format de e-mail";
+"20405"="Le compte existe deja";
+"20406"="Erreur inconnue, enregistrement impossible";
+"20500"="Le compte ne peut pas etre vide";
+"20501"="Erreur de compte";
+"20502"="Le mot de passe ne peut pas etre vide";
+"20503"="Mot de passe invalide";
+"20504"="Identifiant d'utilisateur invalide";
+"20505"="Compte deja lie";
+"20506"="Le compte deja existe";
+"20602"="Erreur de compte";
+"20603"="Erreur de l'e-mail";
+"20703"="Code de verification invalide";
+"20704"="Echec de la verification";
+"20803"="Echec de la reinitialisation";
+"20900"="Lorsque le compte touristique est lie a un tiers, le compte touristique est deja lie";
+"20901"="Lorsque le compte touristique est lie a un tiers, le ID du tiers est deja lie.";
+"unkown_server_error_code"="Erreur inconnue";

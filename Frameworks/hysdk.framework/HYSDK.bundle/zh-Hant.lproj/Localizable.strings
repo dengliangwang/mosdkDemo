@@ -1,0 +1,177 @@
+/*
+ Localizable.strings
+ MOSDK
+ 
+ Created by Jack on 16/3/29.
+ Copyright © 2016年 Morlia. All rights reserved.
+ */
+
+
+/* Login */
+"t_account_login"   = "帳號登入";
+"t_account_logout"  = "註銷登入";
+"t_btn_login"       = "登入";
+"t_btn_guest"       = "遊客登入";
+"t_btn_join"        = "註冊帳號";
+"t_btn_fb"="Facebook 登入";
+"t_btn_gc"="GameCenter 登入";
+"t_btn_gl"="Google 登入";
+"t_btn_find_password"="找回密碼";
+"t_btn_guest_account_bind"="帳號綁定";
+"t_btn_use_other_account_login"="使用其他帳號";
+
+"tip_in_account"    = "請輸入您的帳號";
+"tip_in_pwd"        = "請輸入您的登入密碼";
+
+
+/* Register */
+"t_account_join"        = "註冊帳號";
+"t_btn_join_c"          = "註冊";
+"t_btn_reset"           = "重置";
+"tip_in_account_new"    = "6~16位字母+數字";
+"tip_in_pwd1"           = "請輸入您的登入密碼";
+"tip_in_pwd2"           = "請再次輸入您的密碼";
+"tip_in_email"          = "請輸入您的電子郵箱地址";
+
+/* 獲取驗證碼*/
+"t_account_get_verification_code"="獲取驗證碼";
+"tip_in_account_find_pass_word"="請輸入帳號";
+"t_btn_get_v_code_find_pass_word"="確定";
+"tip_in_v_code_find_pass_word"="輸入驗證碼";
+"t_btn_send_v_code_find_pass_word"="確定";
+"tip_get_v_code_success"="驗證碼發送成功";
+"tip_get_v_code_failure"="驗證碼發送失敗";
+"tip_empty_v_code"="請輸入驗證碼";
+"tip_eror_check_v_code"="驗證碼錯誤";
+"tip_for_forget_account_or_email_case"="如果您忘記了帳號或者郵箱可以通過facebook主頁聯繫客服進行找回。";
+
+/* 重置密碼*/
+"title_for_reset_password"="重置密碼";
+"tip_for_input_password_in_reset_password"="輸入新密碼";
+"tip_for_input_repeat_password_in_reset_password"="確認新密碼";
+"tip_for_confirm_btn_in_reset_password"="確認";
+"tip_for_reset_password_success"="重置密碼成功";
+"tip_for_reset_password_failure"="重置密碼失敗";
+
+/* Toast */
+"toast_welcome_back"    = "歡迎回來 %@！";
+
+
+
+/* Result */
+"r_title_info"      = "信息";
+"r_title_warning"   = "警告";
+"r_title_error"     = "錯誤";
+
+"r_network_error"   = "網路連結錯誤";
+"r_data_error"      = "數據錯誤";
+"r_internal_error"  = "程式內部錯誤";
+"r_invalid_account_error"="非法賬戶，賬號類型錯誤";
+"r_invalid_gamecenter_status_error"="Gamecenter登錄失敗，請確認保持Gamecenter功能開啟";
+
+"r_acc_empty"           = "請輸入您的用戶名";
+"r_pwd_empty"           = "請輸入您的密碼";
+"r_invalid_acc"         = "無效的用戶名";
+"r_acc_or_pwd_error"    = "用戶名或密碼錯誤";
+"r_acc_new_empty"       = "請輸入您的新帳號名稱";
+"r_pwd1_invalid"        = "密碼不能少於六位";
+"r_pwd2_empty"          = "請再次輸入您的密碼";
+"r_pwd2_n_match"        = "兩次輸入的密碼要相同";
+"r_email_empty"         = "請輸入您的E-mail信箱";
+"r_email_invalid"       = "E-mail信箱格式錯誤";
+"r_acc_reg_success"     = "帳號註冊成功";
+
+/* 1.0.10005 */
+"t_btn_ok"              = "確認";
+"t_btn_cancel"          = "取消";
+"t_btn_complete"        = "完成";
+"t_btn_yes"             = "是";
+"t_btn_no"              = "否";
+
+
+"t_account_sel"         = "選擇帳號";
+"t_account_mo"          = "帳號";
+"t_account_ta"          = "第三方帳號";
+"t_account_guest"       = "遊客帳號";
+"t_account_bind"        = "綁定帳號";
+
+"t_name_mo"             = "%@ [%d]";
+"t_name_guest"          = "遊客";
+"t_name_gamecenter"     = "GameCenter";
+"t_name_facebook"       = "Facebook";
+"t_name_google"         = "Google";
+
+"t_btn_enter"           = "進入";
+"t_btn_enter_s"         = "進入 (%@)";
+"t_btn_enter_p"         = "暫停";
+"t_btn_help"            = "幫助";
+"t_btn_logout"          = "登出";
+"t_btn_bind"            = "綁定";
+"t_btn_bind_facebook"   = "綁定 Facebook 帳號";
+"t_btn_bind_google"     = "綁定 Google 帳號";
+
+"r_args_error"          = "參數錯誤";
+"r_unknown_error"       = "未知錯誤";
+"r_accounts_num_limit"  = "帳號數量超出限制";
+"r_account_repeat"      = "帳號重複登入或登入認證過期";
+
+"tip_guest_risks"       = "您當前為遊客帳號登入，可能存在丟失數據的風險，我們建議您儘快綁定帳號。";
+
+"r_bind_mo_success"         = "帳號綁定成功";
+"r_bind_mo_failed"          = "帳號綁定失敗";
+"r_bind_facebook_success"   = "Facebook 帳號綁定成功";
+"r_bind_facebook_failed"    = "Facebook 帳號綁定失敗";
+"r_bind_google_success"     = "Google 帳號綁定成功";
+"r_bind_google_failed"      = "Google 帳號綁定失敗";
+"facebook_like_reward_btn_title" = "點贊";
+
+"r_account_manager_switch_acount_btn_title"="切換帳號";
+"r_account_manager_bind_acount_title"="綁定帳號";
+"r_account_manager_bind_acount_btn_title"="綁定帳號";
+"r_account_manager_unable_bind_acount_tip"="第三方帳號已經被綁定。";
+"r_account_manager_bind_gamecenter_btn_title"="GameCenter綁定";
+"r_account_manager_bind_gamecenter_tip_for_bind_falure"="GameCenter綁定失敗，建議您使用帳號密碼綁定";
+"r_account_manager_bind_mo_acount_btn_title"="帳號密碼綁定";
+"r_switch_account_page_title"="切換帳號";
+"r_bind_account_and_pw_page_get_quick_account"="快速生成帳號";
+"r_tip_for_bind_success"="綁定成功";
+
+//初始化话失败提示文字
+"mosdk_tip_for_init_failure"="網絡異常，請退出遊戲后重試";
+"mosdk_content_for_init_failure"="遊戲初始化失敗，請重啟遊戲。";
+"mosdk_ok_btn_content_for_init_failure"="確認";
+
+"mosdk_tip_for_init_ban"="您所在的國家未開放此遊戲";
+
+// 服务器code码对应提示
+"10300"="一次邀請不能超過100人";
+"20200"="帳號不能為空";
+"20201"="密碼不能為空";
+"20202"="密碼不符合規則";
+"20203"="帳號錯誤";
+"20204"="密碼錯誤";
+"20205"="帳號重複登入或登入認證過期";
+"20207"="帳號異常";
+"20304"="帳號異常";
+"20400"="用戶帳號不能為空";
+"20401"="密碼不能空";
+"20402"="密碼不符合規則";
+"20403"="帳號格式錯誤";
+"20404"="郵箱格式錯誤";
+"20405"="帳號已經存在";
+"20406"="環境異常，無法註冊";
+"20500"="用戶帳號不能為空";
+"20501"="帳號不符合規則";
+"20502"="密碼不能為空";
+"20503"="密碼不符合規則";
+"20504"="使用者ID錯誤";
+"20505"="此帳號已經綁定";
+"20506"="帳號已經存在";
+"20602"="帳號異常";
+"20603"="郵箱異常";
+"20703"="驗證碼錯誤";
+"20704"="驗證碼失效";
+"20803"="重置密碼失敗";
+"20900"="游客账号绑定第三方时，游客账号已经被绑定。";
+"20901"="游客账号绑定第三方时，第三方ID已经被绑定。";
+"unkown_server_error_code"="未知错误";

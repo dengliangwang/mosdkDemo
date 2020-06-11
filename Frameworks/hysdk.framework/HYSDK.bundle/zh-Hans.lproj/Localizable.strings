@@ -1,0 +1,179 @@
+/* 
+  Localizable.strings
+  MOSDK
+
+  Created by Jack on 16/3/29.
+  Copyright © 2016年 Morlia. All rights reserved.
+*/
+
+
+/* Login */
+"t_account_login"   = "账号登录";
+"t_account_logout"  = "注销登录";
+"t_btn_login"       = "登录";
+"t_btn_guest"       = "游客";
+"t_btn_join"        = "注册账号";
+"t_btn_fb"          = "Facebook 登录";
+"t_btn_gc"="GameCenter 登录";
+"t_btn_gl"="Google 登录";
+"t_btn_find_password"="找回密码";
+"tip_in_account"    = "请输入您的账号";
+"tip_in_pwd"        = "请输入您的登录密码";
+"t_btn_use_other_account_login"="使用其他账号";
+
+
+/* Join */
+"t_account_join"        = "注册账号";
+"t_btn_join_c"          = "注册";
+"t_btn_reset"           = "重置";
+"tip_in_account_new"    = "6~16位字母+数字";
+"tip_in_pwd1"           = "请输入您的登录密码";
+"tip_in_pwd2"           = "请再次输入您的密码";
+"tip_in_email"          = "请输入您的电子邮箱地址";
+
+/* 獲取驗證碼*/
+"t_account_get_verification_code"="获取验证码";
+"tip_in_account_find_pass_word"="请输入账号";
+"t_btn_get_v_code_find_pass_word"="确定";
+"tip_in_v_code_find_pass_word"="请输入验证码";
+"t_btn_send_v_code_find_pass_word"="确认";
+"tip_get_v_code_success"="验证码发送成功";
+"tip_get_v_code_failure"="验证码发送失败";
+"tip_empty_v_code"="请输入验证码";
+"tip_eror_check_v_code"="验证码错误";
+"tip_for_forget_account_or_email_case"="如果您忘记了账号或者邮箱可以通过Facebook主页联系客服进行找回。";
+
+/* 重置密碼*/
+"title_for_reset_password"="重置密碼";
+"tip_for_input_password_in_reset_password"="输入新密码";
+"tip_for_input_repeat_password_in_reset_password"="确认新密码";
+"tip_for_confirm_btn_in_reset_password"="确定";
+"tip_for_reset_password_success"="重置密碼成功";
+"tip_for_reset_password_failure"="重置密碼失敗";
+
+
+
+/* Toast */
+"toast_welcome_back" = "欢迎回来 %@！";
+
+
+
+/* Result */
+"r_title_info"      = "信息";
+"r_title_warning"   = "警告";
+"r_title_error"     = "错误";
+
+"r_network_error"   = "网络通信错误";
+"r_data_error"      = "数据错误";
+"r_internal_error"  = "程度内部错误";
+"r_invalid_account_error"="非法账户，账号类型错误";
+"r_invalid_gamecenter_status_error"="Gamecenter登录失败，请确认保持Gamecenter功能开启";
+
+"r_acc_empty"           = "请输入您的用户名";
+"r_pwd_empty"           = "请输入您的密码";
+"r_invalid_acc"         = "无效的用户名";
+"r_acc_or_pwd_error"    = "用户名或密码错误";
+"r_acc_new_empty"       = "请输入新账号的名称";
+"r_pwd1_invalid"        = "密码不能少于6位";
+"r_pwd2_empty"          = "请再次输入您的密码";
+"r_pwd2_n_match"        = "两次输入的密码要相同";
+"r_email_empty"         = "请输入您的电子邮箱地址";
+"r_email_invalid"       = "电子邮箱地址格式错误";
+"r_acc_reg_success"     = "账号注册成功";
+
+/* 1.0.10005 */
+"t_btn_ok"              = "好";
+"t_btn_cancel"          = "取消";
+"t_btn_complete"        = "完成";
+"t_btn_yes"             = "是";
+"t_btn_no"              = "否";
+
+
+"t_account_sel"         = "选择账号";
+"t_account_mo"          = "账号";
+"t_account_ta"          = "第三方账号";
+"t_account_guest"       = "游客账号";
+"t_account_bind"        = "绑定账号";
+
+"t_name_mo"             = "%@ [%d]";
+"t_name_guest"          = "游客";
+"t_name_gamecenter"     = "GameCenter";
+"t_name_facebook"       = "Facebook";
+"t_name_google"         = "Google";
+
+"t_btn_enter"           = "进入";
+"t_btn_enter_s"         = "进入 (%@)";
+"t_btn_enter_p"         = "暂停";
+"t_btn_help"            = "帮助";
+"t_btn_logout"          = "登出";
+"t_btn_bind"            = "绑定";
+"t_btn_bind_facebook"   = "绑定 Facebook 账号";
+"t_btn_bind_google"     = "绑定 Google 账号";
+
+"r_args_error"          = "参数错误";
+"r_unknown_error"       = "未知错误";
+"r_accounts_num_limit"  = "账号数量超出限制";
+"r_account_repeat"      = "账号重复登录或登录认证过期";
+
+"tip_guest_risks"       = "您当前为游客账号登录，可能存在丢失数据的风险，我们建议您尽快绑定账号。";
+
+"r_bind_mo_success"         = "账号绑定成功";
+"r_bind_mo_failed"          = "账号绑定失败";
+"r_bind_facebook_success"   = "Facebook 账号绑定成功";
+"r_bind_facebook_failed"    = "Facebook 账号绑定失败";
+"r_bind_google_success"     = "Google 账号绑定成功";
+"r_bind_google_failed"      = "Google 账号绑定失败";
+"r_account_manager_switch_acount_btn_title"="切换账号";
+"r_account_manager_bind_acount_title"="绑定账号";
+"r_account_manager_bind_acount_btn_title"="绑定账号";
+"r_account_manager_unable_bind_acount_tip"="第三方账号已经被绑定。";
+"r_account_manager_bind_gamecenter_btn_title"="GameCenter绑定";
+"r_account_manager_bind_gamecenter_tip_for_bind_falure"="GameCenter绑定失败，建议您使用账号密码绑定";
+"r_account_manager_bind_mo_acount_btn_title"="账号密码绑定";
+"r_switch_account_page_title"="切换账号";
+"r_bind_account_and_pw_page_get_quick_account"="快速生成账号";
+"r_tip_for_bind_success"="绑定成功";
+
+"facebook_like_reward_btn_title" = "点赞";
+
+//初始化失败提示文字
+"mosdk_tip_for_init_failure"="网络异常，请退出游戏后重试";
+"mosdk_content_for_init_failure"="游戏初始化失败，请重启游戏";
+"mosdk_ok_btn_content_for_init_failure"="确定";
+"mosdk_tip_for_init_ban"="您所在的国家未开放此游戏";
+
+// 服务器code码对应提示
+"10300"="一次邀请不能超过100人";
+"20200"="帐号为空";
+"20201"="密码为空";
+"20202"="密码不符合规则";
+"20203"="帐号错误";
+"20204"="密码错误";
+"20205"="账号重复登录或登录认证过期";
+"20207"="账号异常";
+"20304"="账号异常";
+"20400"="用户帐号不能为空";
+"20401"="密码不能为空";
+"20402"="密码不符合规则";
+"20403"="帐号格式错误";
+"20404"="邮箱格式错误";
+"20405"="帐号已经存在";
+"20406"="环境异常，无法注册";
+"20500"="用户帐号不能为空";
+"20501"="账号不符合规则";
+"20502"="密码不能为空";
+"20503"="密码不符合规则";
+"20504"="用户ID错误";
+"20505"="此帐号已经绑定";
+"20506"="帐号已经存在";
+"20602"="账号异常";
+"20603"="邮箱异常";
+"20703"="验证码错误";
+"20704"="验证码失效";
+"20803"="重置密码失败";
+"20900"="游客账号绑定第三方时，游客账号已经被绑定。";
+"20901"="游客账号绑定第三方时，第三方ID已经被绑定。";
+"unkown_server_error_code"="未知错误";
+
+
+
