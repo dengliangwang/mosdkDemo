@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,6 +35,7 @@
 		1D90984C2492022500681F05 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D90984B2492022500681F05 /* CoreMedia.framework */; };
 		1D90984E2492023100681F05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D90984D2492023100681F05 /* QuartzCore.framework */; };
 		1D9098502492023C00681F05 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D90984F2492023C00681F05 /* ReplayKit.framework */; };
+		1D90985224920A6B00681F05 /* NaverCafeSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D90985124920A6B00681F05 /* NaverCafeSDK.bundle */; };
 		8804C7411C9BD69A0091400C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804C7401C9BD69A0091400C /* main.m */; };
 		8804C7441C9BD69A0091400C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804C7431C9BD69A0091400C /* AppDelegate.m */; };
 		8804C7471C9BD69A0091400C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8804C7461C9BD69A0091400C /* ViewController.m */; };
@@ -100,6 +101,7 @@
 		1D90984B2492022500681F05 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		1D90984D2492023100681F05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1D90984F2492023C00681F05 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		1D90985124920A6B00681F05 /* NaverCafeSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NaverCafeSDK.bundle; path = Frameworks/NaverCafeSDK.bundle; sourceTree = "<group>"; };
 		8804C73C1C9BD69A0091400C /* MOSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8804C7401C9BD69A0091400C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8804C7421C9BD69A0091400C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 		880893DF1CAE5A0C0006E600 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D90985124920A6B00681F05 /* NaverCafeSDK.bundle */,
 				1D90984F2492023C00681F05 /* ReplayKit.framework */,
 				1D90984D2492023100681F05 /* QuartzCore.framework */,
 				1D90984B2492022500681F05 /* CoreMedia.framework */,
@@ -250,7 +253,6 @@
 				8804C73A1C9BD69A0091400C /* Resources */,
 				8804C7D81C9C0BB00091400C /* Embed PlugIns */,
 				88A53A691CB5177B00CFA73F /* Embed Frameworks */,
-				1DF1791A1FE8BE6A0037BB09 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -283,11 +285,10 @@
 				};
 			};
 			buildConfigurationList = 8804C7371C9BD69A0091400C /* Build configuration list for PBXProject "MOSDKDemo" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 				ar,
@@ -355,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D90985224920A6B00681F05 /* NaverCafeSDK.bundle in Resources */,
 				8804C74F1C9BD69A0091400C /* LaunchScreen.storyboard in Resources */,
 				8804C74C1C9BD69A0091400C /* Assets.xcassets in Resources */,
 				8804C74A1C9BD69A0091400C /* Main.storyboard in Resources */,
@@ -362,22 +364,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1DF1791A1FE8BE6A0037BB09 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "BUGLY_APP_ID=\"\"\nBUGLY_APP_KEY=\"\"\nBUNDLE_IDENTIFIER=\"\"\n\n#debug 模式编译是否上传，1=上传 0=不上传，默认不上传\nUPLOAD_DEBUG_SYMBOLS=0\n#模拟器编译是否上传， 1=上传，0=不上传，默认不上传\nUPLOAD_SIMULATOR_SYMBOLS=0";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8804C7381C9BD69A0091400C /* Sources */ = {
@@ -529,7 +515,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XRM22S9M76;
+				DEVELOPMENT_TEAM = Z6D9SB6G5G;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,20 +524,20 @@
 				);
 				INFOPLIST_FILE = MOSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks/MOSDK.framework",
 					"$(PROJECT_DIR)/Frameworks",
-					"$(PROJECT_DIR)/Frameworks/helpshift-sdk-ios-v6.3.0",
-					"$(PROJECT_DIR)/Frameworks/libKochavaTrackeriOS",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.starke.neake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowyo.readanc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e974c59f-85d5-437e-ac18-b04b0da97d10";
-				PROVISIONING_PROFILE_SPECIFIER = vhhgk_dev;
+				PROVISIONING_PROFILE_SPECIFIER = sesd_dev;
 				VALID_ARCHS = "arm64 armv7s armv7 i386";
 			};
 			name = Debug;
@@ -565,7 +551,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = XRM22S9M76;
+				DEVELOPMENT_TEAM = Z6D9SB6G5G;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -574,19 +560,19 @@
 				);
 				INFOPLIST_FILE = MOSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks/MOSDK.framework",
 					"$(PROJECT_DIR)/Frameworks",
-					"$(PROJECT_DIR)/Frameworks/helpshift-sdk-ios-v6.3.0",
-					"$(PROJECT_DIR)/Frameworks/libKochavaTrackeriOS",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.starke.neake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowyo.readanc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "fbcab873-b03c-41e1-aeb1-61d2b6b09d7b";
-				PROVISIONING_PROFILE_SPECIFIER = "vhhgk_Ad Hoc";
+				PROVISIONING_PROFILE_SPECIFIER = sesd_dis;
 				VALID_ARCHS = "arm64 armv7s armv7 i386";
 			};
 			name = Release;

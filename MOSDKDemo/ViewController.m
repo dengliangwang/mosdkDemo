@@ -27,6 +27,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *FAQBTN;
 @property (weak, nonatomic) IBOutlet UIButton *csvBtn;
+- (IBAction)openCafe:(UIButton *)sender;
 
 @end  // ViewController ()
 
@@ -277,5 +278,8 @@
 */
 - (void)initFailure:(NSError *)error{
     NSLog(@"Demo error: %@", error);
+}
+- (IBAction)openCafe:(UIButton *)sender {
+    [[HY sharedInstance] openCafeHome:self];
 }
 @end  // ViewController
